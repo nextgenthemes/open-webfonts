@@ -1,0 +1,144 @@
+/* latin-ext */
+@font-face {
+  font-family: 'Sansita';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Sansita Italic'), local('Sansita-Italic'), url(../fonts/sansita/v4/QldMNTRRphEb_-V7LBuBQFlb_qw.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Sansita';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Sansita Italic'), local('Sansita-Italic'), url(../fonts/sansita/v4/QldMNTRRphEb_-V7LBuBTllb.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Sansita';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Sansita Bold Italic'), local('Sansita-BoldItalic'), url(../fonts/sansita/v4/QldJNTRRphEb_-V7LBuJ9XxOz41r__g.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Sansita';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Sansita Bold Italic'), local('Sansita-BoldItalic'), url(../fonts/sansita/v4/QldJNTRRphEb_-V7LBuJ9XxOwY1r.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Sansita';
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: local('Sansita ExtraBold Italic'), local('Sansita-ExtraBoldItalic'), url(../fonts/sansita/v4/QldJNTRRphEb_-V7LBuJ6X9Oz41r__g.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Sansita';
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: local('Sansita ExtraBold Italic'), local('Sansita-ExtraBoldItalic'), url(../fonts/sansita/v4/QldJNTRRphEb_-V7LBuJ6X9OwY1r.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Sansita';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Sansita Black Italic'), local('Sansita-BlackItalic'), url(../fonts/sansita/v4/QldJNTRRphEb_-V7LBuJzX5Oz41r__g.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Sansita';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Sansita Black Italic'), local('Sansita-BlackItalic'), url(../fonts/sansita/v4/QldJNTRRphEb_-V7LBuJzX5OwY1r.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Sansita';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Sansita Regular'), local('Sansita-Regular'), url(../fonts/sansita/v4/QldONTRRphEb_-V7LBCxTEFf.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Sansita';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Sansita Regular'), local('Sansita-Regular'), url(../fonts/sansita/v4/QldONTRRphEb_-V7LB6xTA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Sansita';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Sansita Bold'), local('Sansita-Bold'), url(../fonts/sansita/v4/QldLNTRRphEb_-V7JKWUWXB-w5Vv.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Sansita';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Sansita Bold'), local('Sansita-Bold'), url(../fonts/sansita/v4/QldLNTRRphEb_-V7JKWUWX5-ww.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Sansita';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: local('Sansita ExtraBold'), local('Sansita-ExtraBold'), url(../fonts/sansita/v4/QldLNTRRphEb_-V7JLmXWXB-w5Vv.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Sansita';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: local('Sansita ExtraBold'), local('Sansita-ExtraBold'), url(../fonts/sansita/v4/QldLNTRRphEb_-V7JLmXWX5-ww.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Sansita';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Sansita Black'), local('Sansita-Black'), url(../fonts/sansita/v4/QldLNTRRphEb_-V7JJ2WWXB-w5Vv.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Sansita';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Sansita Black'), local('Sansita-Black'), url(../fonts/sansita/v4/QldLNTRRphEb_-V7JJ2WWX5-ww.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}

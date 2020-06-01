@@ -1,0 +1,189 @@
+/* vietnamese */
+@font-face {
+  font-family: 'Darker Grotesque';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Darker Grotesque Light'), local('DarkerGrotesque-Light'), url(../fonts/darkergrotesque/v1/U9MA6cuh-mLQlC4BKCtayOfARkSVoxr2MWcrTdsX.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Darker Grotesque';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Darker Grotesque Light'), local('DarkerGrotesque-Light'), url(../fonts/darkergrotesque/v1/U9MA6cuh-mLQlC4BKCtayOfARkSVoxr2MWYrTdsX.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Darker Grotesque';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Darker Grotesque Light'), local('DarkerGrotesque-Light'), url(../fonts/darkergrotesque/v1/U9MA6cuh-mLQlC4BKCtayOfARkSVoxr2MWgrTQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Darker Grotesque';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Darker Grotesque Regular'), local('DarkerGrotesque-Regular'), url(../fonts/darkergrotesque/v1/U9MH6cuh-mLQlC4BKCtayOfARkSVq77UJFcK.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Darker Grotesque';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Darker Grotesque Regular'), local('DarkerGrotesque-Regular'), url(../fonts/darkergrotesque/v1/U9MH6cuh-mLQlC4BKCtayOfARkSVq7_UJFcK.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Darker Grotesque';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Darker Grotesque Regular'), local('DarkerGrotesque-Regular'), url(../fonts/darkergrotesque/v1/U9MH6cuh-mLQlC4BKCtayOfARkSVq7HUJA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Darker Grotesque';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Darker Grotesque Medium'), local('DarkerGrotesque-Medium'), url(../fonts/darkergrotesque/v1/U9MA6cuh-mLQlC4BKCtayOfARkSVo0L3MWcrTdsX.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Darker Grotesque';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Darker Grotesque Medium'), local('DarkerGrotesque-Medium'), url(../fonts/darkergrotesque/v1/U9MA6cuh-mLQlC4BKCtayOfARkSVo0L3MWYrTdsX.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Darker Grotesque';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Darker Grotesque Medium'), local('DarkerGrotesque-Medium'), url(../fonts/darkergrotesque/v1/U9MA6cuh-mLQlC4BKCtayOfARkSVo0L3MWgrTQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Darker Grotesque';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Darker Grotesque SemiBold'), local('DarkerGrotesque-SemiBold'), url(../fonts/darkergrotesque/v1/U9MA6cuh-mLQlC4BKCtayOfARkSVo27wMWcrTdsX.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Darker Grotesque';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Darker Grotesque SemiBold'), local('DarkerGrotesque-SemiBold'), url(../fonts/darkergrotesque/v1/U9MA6cuh-mLQlC4BKCtayOfARkSVo27wMWYrTdsX.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Darker Grotesque';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Darker Grotesque SemiBold'), local('DarkerGrotesque-SemiBold'), url(../fonts/darkergrotesque/v1/U9MA6cuh-mLQlC4BKCtayOfARkSVo27wMWgrTQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Darker Grotesque';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Darker Grotesque Bold'), local('DarkerGrotesque-Bold'), url(../fonts/darkergrotesque/v1/U9MA6cuh-mLQlC4BKCtayOfARkSVowrxMWcrTdsX.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Darker Grotesque';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Darker Grotesque Bold'), local('DarkerGrotesque-Bold'), url(../fonts/darkergrotesque/v1/U9MA6cuh-mLQlC4BKCtayOfARkSVowrxMWYrTdsX.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Darker Grotesque';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Darker Grotesque Bold'), local('DarkerGrotesque-Bold'), url(../fonts/darkergrotesque/v1/U9MA6cuh-mLQlC4BKCtayOfARkSVowrxMWgrTQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Darker Grotesque';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: local('Darker Grotesque ExtraBold'), local('DarkerGrotesque-ExtraBold'), url(../fonts/darkergrotesque/v1/U9MA6cuh-mLQlC4BKCtayOfARkSVoxbyMWcrTdsX.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Darker Grotesque';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: local('Darker Grotesque ExtraBold'), local('DarkerGrotesque-ExtraBold'), url(../fonts/darkergrotesque/v1/U9MA6cuh-mLQlC4BKCtayOfARkSVoxbyMWYrTdsX.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Darker Grotesque';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: local('Darker Grotesque ExtraBold'), local('DarkerGrotesque-ExtraBold'), url(../fonts/darkergrotesque/v1/U9MA6cuh-mLQlC4BKCtayOfARkSVoxbyMWgrTQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Darker Grotesque';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Darker Grotesque Black'), local('DarkerGrotesque-Black'), url(../fonts/darkergrotesque/v1/U9MA6cuh-mLQlC4BKCtayOfARkSVozLzMWcrTdsX.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Darker Grotesque';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Darker Grotesque Black'), local('DarkerGrotesque-Black'), url(../fonts/darkergrotesque/v1/U9MA6cuh-mLQlC4BKCtayOfARkSVozLzMWYrTdsX.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Darker Grotesque';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Darker Grotesque Black'), local('DarkerGrotesque-Black'), url(../fonts/darkergrotesque/v1/U9MA6cuh-mLQlC4BKCtayOfARkSVozLzMWgrTQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}

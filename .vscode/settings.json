@@ -1,0 +1,8 @@
+{
+	"files.watcherExclude": {
+		"**/apache/**": true,
+		"**/downloads/**": true,
+		"**/ofl/**": true,
+		"**/ufl/**": true
+	}
+}

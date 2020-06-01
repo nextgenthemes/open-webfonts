@@ -1,0 +1,135 @@
+/* hebrew */
+@font-face {
+  font-family: 'Frank Ruhl Libre';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Frank Ruhl Libre Light'), local('FrankRuhlLibre-Light'), url(../fonts/frankruhllibre/v5/j8_36_fAw7jrcalD7oKYNX0QfAnPUxvH9JXGhLeI.woff2) format('woff2');
+  unicode-range: U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Frank Ruhl Libre';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Frank Ruhl Libre Light'), local('FrankRuhlLibre-Light'), url(../fonts/frankruhllibre/v5/j8_36_fAw7jrcalD7oKYNX0QfAnPUxvH9JnGhLeI.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Frank Ruhl Libre';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Frank Ruhl Libre Light'), local('FrankRuhlLibre-Light'), url(../fonts/frankruhllibre/v5/j8_36_fAw7jrcalD7oKYNX0QfAnPUxvH9JfGhA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* hebrew */
+@font-face {
+  font-family: 'Frank Ruhl Libre';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Frank Ruhl Libre Regular'), local('FrankRuhlLibre-Regular'), url(../fonts/frankruhllibre/v5/j8_w6_fAw7jrcalD7oKYNX0QfAnPW7Ll4ajn.woff2) format('woff2');
+  unicode-range: U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Frank Ruhl Libre';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Frank Ruhl Libre Regular'), local('FrankRuhlLibre-Regular'), url(../fonts/frankruhllibre/v5/j8_w6_fAw7jrcalD7oKYNX0QfAnPW77l4ajn.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Frank Ruhl Libre';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Frank Ruhl Libre Regular'), local('FrankRuhlLibre-Regular'), url(../fonts/frankruhllibre/v5/j8_w6_fAw7jrcalD7oKYNX0QfAnPW7Dl4Q.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* hebrew */
+@font-face {
+  font-family: 'Frank Ruhl Libre';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Frank Ruhl Libre Medium'), local('FrankRuhlLibre-Medium'), url(../fonts/frankruhllibre/v5/j8_36_fAw7jrcalD7oKYNX0QfAnPU0PG9JXGhLeI.woff2) format('woff2');
+  unicode-range: U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Frank Ruhl Libre';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Frank Ruhl Libre Medium'), local('FrankRuhlLibre-Medium'), url(../fonts/frankruhllibre/v5/j8_36_fAw7jrcalD7oKYNX0QfAnPU0PG9JnGhLeI.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Frank Ruhl Libre';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Frank Ruhl Libre Medium'), local('FrankRuhlLibre-Medium'), url(../fonts/frankruhllibre/v5/j8_36_fAw7jrcalD7oKYNX0QfAnPU0PG9JfGhA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* hebrew */
+@font-face {
+  font-family: 'Frank Ruhl Libre';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Frank Ruhl Libre Bold'), local('FrankRuhlLibre-Bold'), url(../fonts/frankruhllibre/v5/j8_36_fAw7jrcalD7oKYNX0QfAnPUwvA9JXGhLeI.woff2) format('woff2');
+  unicode-range: U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Frank Ruhl Libre';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Frank Ruhl Libre Bold'), local('FrankRuhlLibre-Bold'), url(../fonts/frankruhllibre/v5/j8_36_fAw7jrcalD7oKYNX0QfAnPUwvA9JnGhLeI.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Frank Ruhl Libre';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Frank Ruhl Libre Bold'), local('FrankRuhlLibre-Bold'), url(../fonts/frankruhllibre/v5/j8_36_fAw7jrcalD7oKYNX0QfAnPUwvA9JfGhA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* hebrew */
+@font-face {
+  font-family: 'Frank Ruhl Libre';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Frank Ruhl Libre Black'), local('FrankRuhlLibre-Black'), url(../fonts/frankruhllibre/v5/j8_36_fAw7jrcalD7oKYNX0QfAnPUzPC9JXGhLeI.woff2) format('woff2');
+  unicode-range: U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Frank Ruhl Libre';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Frank Ruhl Libre Black'), local('FrankRuhlLibre-Black'), url(../fonts/frankruhllibre/v5/j8_36_fAw7jrcalD7oKYNX0QfAnPUzPC9JnGhLeI.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Frank Ruhl Libre';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Frank Ruhl Libre Black'), local('FrankRuhlLibre-Black'), url(../fonts/frankruhllibre/v5/j8_36_fAw7jrcalD7oKYNX0QfAnPUzPC9JfGhA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}

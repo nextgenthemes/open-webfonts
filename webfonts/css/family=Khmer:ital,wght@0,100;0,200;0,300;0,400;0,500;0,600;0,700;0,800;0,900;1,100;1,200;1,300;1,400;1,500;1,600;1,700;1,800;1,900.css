@@ -1,0 +1,9 @@
+/* khmer */
+@font-face {
+  font-family: 'Khmer';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Khmer'), url(../fonts/khmer/v12/MjQImit_vPPwpG-Nrty0eQ.woff2) format('woff2');
+  unicode-range: U+1780-17FF, U+200C, U+25CC;
+}

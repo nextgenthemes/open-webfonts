@@ -1,0 +1,36 @@
+/* greek */
+@font-face {
+  font-family: 'GFS Neohellenic';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GFS Neohellenic Italic'), local('GFSNeohellenic-Italic'), url(../fonts/gfsneohellenic/v12/8QITdiDOrfiq0b7R8O1Iw9WLcY5jL5JPy6EjUw.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* greek */
+@font-face {
+  font-family: 'GFS Neohellenic';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: local('GFS Neohellenic Bold Italic'), local('GFSNeohellenic-BoldItalic'), url(../fonts/gfsneohellenic/v12/8QIWdiDOrfiq0b7R8O1Iw9WLcY5jL5r37rQfcsBu9w.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* greek */
+@font-face {
+  font-family: 'GFS Neohellenic';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GFS Neohellenic Regular'), local('GFSNeohellenic-Regular'), url(../fonts/gfsneohellenic/v12/8QIRdiDOrfiq0b7R8O1Iw9WLcY5jKaJO06U.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* greek */
+@font-face {
+  font-family: 'GFS Neohellenic';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('GFS Neohellenic Bold'), local('GFSNeohellenic-Bold'), url(../fonts/gfsneohellenic/v12/8QIUdiDOrfiq0b7R8O1Iw9WLcY5rkYdb74QeasQ.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}

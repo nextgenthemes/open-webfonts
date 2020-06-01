@@ -1,0 +1,216 @@
+/* vietnamese */
+@font-face {
+  font-family: 'Big Shoulders Text';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: local('Big Shoulders Text Thin'), local('BigShouldersText-Thin'), url(../fonts/bigshoulderstext/v1/55xzezRtP9G3CGPIf49hxc8P0eytUxBU-LZ3aMYydQ.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Big Shoulders Text';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: local('Big Shoulders Text Thin'), local('BigShouldersText-Thin'), url(../fonts/bigshoulderstext/v1/55xzezRtP9G3CGPIf49hxc8P0eytUxBU-LZ2aMYydQ.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Big Shoulders Text';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: local('Big Shoulders Text Thin'), local('BigShouldersText-Thin'), url(../fonts/bigshoulderstext/v1/55xzezRtP9G3CGPIf49hxc8P0eytUxBU-LZ4aMY.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Big Shoulders Text';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Big Shoulders Text Light'), local('BigShouldersText-Light'), url(../fonts/bigshoulderstext/v1/55xyezRtP9G3CGPIf49hxc8P0eytUxBUMKRvQOMPTG0.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Big Shoulders Text';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Big Shoulders Text Light'), local('BigShouldersText-Light'), url(../fonts/bigshoulderstext/v1/55xyezRtP9G3CGPIf49hxc8P0eytUxBUMKRvQeMPTG0.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Big Shoulders Text';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Big Shoulders Text Light'), local('BigShouldersText-Light'), url(../fonts/bigshoulderstext/v1/55xyezRtP9G3CGPIf49hxc8P0eytUxBUMKRvT-MP.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Big Shoulders Text';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Big Shoulders Text Regular'), local('BigShouldersText-Regular'), url(../fonts/bigshoulderstext/v1/55xxezRtP9G3CGPIf49hxc8P0eytUxBclIZ6cMI.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Big Shoulders Text';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Big Shoulders Text Regular'), local('BigShouldersText-Regular'), url(../fonts/bigshoulderstext/v1/55xxezRtP9G3CGPIf49hxc8P0eytUxBclYZ6cMI.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Big Shoulders Text';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Big Shoulders Text Regular'), local('BigShouldersText-Regular'), url(../fonts/bigshoulderstext/v1/55xxezRtP9G3CGPIf49hxc8P0eytUxBcm4Z6.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Big Shoulders Text';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Big Shoulders Text Medium'), local('BigShouldersText-Medium'), url(../fonts/bigshoulderstext/v1/55xyezRtP9G3CGPIf49hxc8P0eytUxBUaKVvQOMPTG0.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Big Shoulders Text';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Big Shoulders Text Medium'), local('BigShouldersText-Medium'), url(../fonts/bigshoulderstext/v1/55xyezRtP9G3CGPIf49hxc8P0eytUxBUaKVvQeMPTG0.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Big Shoulders Text';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Big Shoulders Text Medium'), local('BigShouldersText-Medium'), url(../fonts/bigshoulderstext/v1/55xyezRtP9G3CGPIf49hxc8P0eytUxBUaKVvT-MP.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Big Shoulders Text';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Big Shoulders Text SemiBold'), local('BigShouldersText-SemiBold'), url(../fonts/bigshoulderstext/v1/55xyezRtP9G3CGPIf49hxc8P0eytUxBURKJvQOMPTG0.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Big Shoulders Text';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Big Shoulders Text SemiBold'), local('BigShouldersText-SemiBold'), url(../fonts/bigshoulderstext/v1/55xyezRtP9G3CGPIf49hxc8P0eytUxBURKJvQeMPTG0.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Big Shoulders Text';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Big Shoulders Text SemiBold'), local('BigShouldersText-SemiBold'), url(../fonts/bigshoulderstext/v1/55xyezRtP9G3CGPIf49hxc8P0eytUxBURKJvT-MP.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Big Shoulders Text';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Big Shoulders Text Bold'), local('BigShouldersText-Bold'), url(../fonts/bigshoulderstext/v1/55xyezRtP9G3CGPIf49hxc8P0eytUxBUIKNvQOMPTG0.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Big Shoulders Text';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Big Shoulders Text Bold'), local('BigShouldersText-Bold'), url(../fonts/bigshoulderstext/v1/55xyezRtP9G3CGPIf49hxc8P0eytUxBUIKNvQeMPTG0.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Big Shoulders Text';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Big Shoulders Text Bold'), local('BigShouldersText-Bold'), url(../fonts/bigshoulderstext/v1/55xyezRtP9G3CGPIf49hxc8P0eytUxBUIKNvT-MP.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Big Shoulders Text';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: local('Big Shoulders Text ExtraBold'), local('BigShouldersText-ExtraBold'), url(../fonts/bigshoulderstext/v1/55xyezRtP9G3CGPIf49hxc8P0eytUxBUPKBvQOMPTG0.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Big Shoulders Text';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: local('Big Shoulders Text ExtraBold'), local('BigShouldersText-ExtraBold'), url(../fonts/bigshoulderstext/v1/55xyezRtP9G3CGPIf49hxc8P0eytUxBUPKBvQeMPTG0.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Big Shoulders Text';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: local('Big Shoulders Text ExtraBold'), local('BigShouldersText-ExtraBold'), url(../fonts/bigshoulderstext/v1/55xyezRtP9G3CGPIf49hxc8P0eytUxBUPKBvT-MP.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Big Shoulders Text';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Big Shoulders Text Black'), local('BigShouldersText-Black'), url(../fonts/bigshoulderstext/v1/55xyezRtP9G3CGPIf49hxc8P0eytUxBUGKFvQOMPTG0.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Big Shoulders Text';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Big Shoulders Text Black'), local('BigShouldersText-Black'), url(../fonts/bigshoulderstext/v1/55xyezRtP9G3CGPIf49hxc8P0eytUxBUGKFvQeMPTG0.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Big Shoulders Text';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Big Shoulders Text Black'), local('BigShouldersText-Black'), url(../fonts/bigshoulderstext/v1/55xyezRtP9G3CGPIf49hxc8P0eytUxBUGKFvT-MP.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
