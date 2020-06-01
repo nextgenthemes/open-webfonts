@@ -1,26 +1,18 @@
-# Google Fonts Files
+# Open Webfonts by nextgenthemes.com
 
-This project mainly contains the binary font files served by Google Fonts ([fonts.google.com](https://fonts.google.com))
-
-The top-level directories indicate the license of all files found within them.
-Subdirectories are named according to the family name of the fonts within. 
-
-Each family subdirectory contains the  `.ttf` font files served by Google Fonts, plus a `METADATA.pb` file with metadata for the family (such as information on the project designer(s), genre category, and license - [learn more](https://github.com/googlefonts/gf-docs/tree/master/METADATA)) and a `DESCRIPTION.en_us.html` with a description of the family in US English.
-
-The `/catalog` subdirectory contains additional metadata, such as profile texts and portrait/avatar images of font designers, and this is open for contributions and corrections from anyone via Github.
+Soon
 
 ## Bug reports and improvement requests
 
-If you find a problem with a font file or have a request for the future development of a font project, please [create a new issue in this project's issue tracker](https://github.com/google/fonts/issues).
+Yes
 
 ## Self Host Fonts Available From Google Fonts
 
-Since all the fonts available here are licensed with permission to redistribute, subject to the license terms, you can self-host.
-For help doing this, see <https://github.com/majodev/google-webfonts-helper>
+Yes
 
-## Download All Google Fonts
+## Download All Open Webfonts
 
-You can download all Google Fonts in a simple ZIP snapshot (over 300MB) from <https://github.com/google/fonts/archive/master.zip>
+You can download all Open Webfonts in a simple ZIP snapshot (/webfonts/ directory) from <https://github.com/nextgenthemes/open-webfonts/archive/master.zip>
 
 #### Sync With Git
 
@@ -40,15 +32,3 @@ The Ubuntu fonts use the Ubuntu Font License v1.0.
 
 The SIL Open Font License has an option for copyright holders to include a Reserved Font Name requirement, and this option is used with some of the fonts. 
 If you modify those fonts, please take care of this important detail.
-
-## Source Files
-
-Source files for each family are often available from the designer, or from [github.com/googlefonts](https://github.com/googlefonts)
-
-These fonts are usually the result of collaborative projects, where you are invited to discuss issues with the designers and even contribute to their ongoing development.
-
-When customizing or remixing fonts, please do contact the designers to understand what they might need in order to include your improvements.
-
-Most of all: Enjoy the fonts!
-
-– The Google Fonts team, 2015-06-18
