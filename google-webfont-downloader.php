@@ -17,7 +17,23 @@ function get_webfonts() {
 		mkdir($download_dir, 0700);
 	}
 
+<<<<<<< HEAD
 	$i = 1;
+=======
+	if ( $storage ) {
+		$dir     = __DIR__ . '/webfonts';
+		$zipfile = false;
+	} else {
+		$dirname = str_replace(
+			[ 'https://fonts.googleapis.com/css2?', '&display=swap', '/' ],
+			'',
+			$google_css_url
+		);
+
+		$dir     = __DIR__ . "/zips/$dirname";
+		$zipfile = __DIR__ . "/zips/$dirname.zip";
+	}
+>>>>>>> 017c29ac5... dir
 
 	foreach ( $fonts as $font ) :
 
