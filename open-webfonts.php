@@ -147,7 +147,7 @@ function prepare( string $google_css_url, bool $storage = false ) {
 			$html .= '<pre class="alignfull"><code>' . "$lines</code></pre>"; // phpcs:ignore
 		else :
 			$html .= sprintf(
-				'<a class="btn btn-lg btn-primary d-block w-100 mb-1" href="%s">Download Zipfile</a>',
+				'<a class="btn btn-lg btn-primary d-block w-100" href="%s">Download Zipfile</a>',
 				esc_url( $zipurl )
 			);
 		endif;
