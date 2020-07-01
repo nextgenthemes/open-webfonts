@@ -1,1 +1,5 @@
 *.pb linguist-language=protobuf
+/.* export-ignore
+/composer* export-ignore
+/ofl export-ignore
+/ufl export-ignore

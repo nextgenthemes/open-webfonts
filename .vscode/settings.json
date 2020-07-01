@@ -1,0 +1,8 @@
+{
+	"files.watcherExclude": {
+		"**/apache/**": true,
+		"**/ofl/**": true,
+		"**/ufl/**": true,
+		"**/webfonts/**": true,
+	}
+}

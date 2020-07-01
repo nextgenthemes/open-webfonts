@@ -1,0 +1,180 @@
+/* oriya */
+@font-face {
+  font-family: 'Baloo Bhaina 2';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Baloo Bhaina 2 Regular'), local('BalooBhaina2-Regular'), url(../fonts/baloobhaina2/v1/qWczB6yyq4P9Adr3RtoX1q6ySizlkjQYug.woff2) format('woff2');
+  unicode-range: U+0964-0965, U+0B01-0B77, U+200C-200D, U+20B9, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Baloo Bhaina 2';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Baloo Bhaina 2 Regular'), local('BalooBhaina2-Regular'), url(../fonts/baloobhaina2/v1/qWczB6yyq4P9Adr3RtoX1q6ySizzkjQYug.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Baloo Bhaina 2';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Baloo Bhaina 2 Regular'), local('BalooBhaina2-Regular'), url(../fonts/baloobhaina2/v1/qWczB6yyq4P9Adr3RtoX1q6ySizykjQYug.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Baloo Bhaina 2';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Baloo Bhaina 2 Regular'), local('BalooBhaina2-Regular'), url(../fonts/baloobhaina2/v1/qWczB6yyq4P9Adr3RtoX1q6ySiz8kjQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* oriya */
+@font-face {
+  font-family: 'Baloo Bhaina 2';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Baloo Bhaina 2 Medium'), local('BalooBhaina2-Medium'), url(../fonts/baloobhaina2/v1/qWcwB6yyq4P9Adr3RtoX1q6ySiQPsSE-m4cxXw.woff2) format('woff2');
+  unicode-range: U+0964-0965, U+0B01-0B77, U+200C-200D, U+20B9, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Baloo Bhaina 2';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Baloo Bhaina 2 Medium'), local('BalooBhaina2-Medium'), url(../fonts/baloobhaina2/v1/qWcwB6yyq4P9Adr3RtoX1q6ySiQPsSEom4cxXw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Baloo Bhaina 2';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Baloo Bhaina 2 Medium'), local('BalooBhaina2-Medium'), url(../fonts/baloobhaina2/v1/qWcwB6yyq4P9Adr3RtoX1q6ySiQPsSEpm4cxXw.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Baloo Bhaina 2';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Baloo Bhaina 2 Medium'), local('BalooBhaina2-Medium'), url(../fonts/baloobhaina2/v1/qWcwB6yyq4P9Adr3RtoX1q6ySiQPsSEnm4c.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* oriya */
+@font-face {
+  font-family: 'Baloo Bhaina 2';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Baloo Bhaina 2 SemiBold'), local('BalooBhaina2-SemiBold'), url(../fonts/baloobhaina2/v1/qWcwB6yyq4P9Adr3RtoX1q6ySiQjtiE-m4cxXw.woff2) format('woff2');
+  unicode-range: U+0964-0965, U+0B01-0B77, U+200C-200D, U+20B9, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Baloo Bhaina 2';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Baloo Bhaina 2 SemiBold'), local('BalooBhaina2-SemiBold'), url(../fonts/baloobhaina2/v1/qWcwB6yyq4P9Adr3RtoX1q6ySiQjtiEom4cxXw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Baloo Bhaina 2';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Baloo Bhaina 2 SemiBold'), local('BalooBhaina2-SemiBold'), url(../fonts/baloobhaina2/v1/qWcwB6yyq4P9Adr3RtoX1q6ySiQjtiEpm4cxXw.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Baloo Bhaina 2';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Baloo Bhaina 2 SemiBold'), local('BalooBhaina2-SemiBold'), url(../fonts/baloobhaina2/v1/qWcwB6yyq4P9Adr3RtoX1q6ySiQjtiEnm4c.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* oriya */
+@font-face {
+  font-family: 'Baloo Bhaina 2';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Baloo Bhaina 2 Bold'), local('BalooBhaina2-Bold'), url(../fonts/baloobhaina2/v1/qWcwB6yyq4P9Adr3RtoX1q6ySiRHtyE-m4cxXw.woff2) format('woff2');
+  unicode-range: U+0964-0965, U+0B01-0B77, U+200C-200D, U+20B9, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Baloo Bhaina 2';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Baloo Bhaina 2 Bold'), local('BalooBhaina2-Bold'), url(../fonts/baloobhaina2/v1/qWcwB6yyq4P9Adr3RtoX1q6ySiRHtyEom4cxXw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Baloo Bhaina 2';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Baloo Bhaina 2 Bold'), local('BalooBhaina2-Bold'), url(../fonts/baloobhaina2/v1/qWcwB6yyq4P9Adr3RtoX1q6ySiRHtyEpm4cxXw.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Baloo Bhaina 2';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Baloo Bhaina 2 Bold'), local('BalooBhaina2-Bold'), url(../fonts/baloobhaina2/v1/qWcwB6yyq4P9Adr3RtoX1q6ySiRHtyEnm4c.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* oriya */
+@font-face {
+  font-family: 'Baloo Bhaina 2';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: local('Baloo Bhaina 2 ExtraBold'), local('BalooBhaina2-ExtraBold'), url(../fonts/baloobhaina2/v1/qWcwB6yyq4P9Adr3RtoX1q6ySiRbtCE-m4cxXw.woff2) format('woff2');
+  unicode-range: U+0964-0965, U+0B01-0B77, U+200C-200D, U+20B9, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Baloo Bhaina 2';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: local('Baloo Bhaina 2 ExtraBold'), local('BalooBhaina2-ExtraBold'), url(../fonts/baloobhaina2/v1/qWcwB6yyq4P9Adr3RtoX1q6ySiRbtCEom4cxXw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Baloo Bhaina 2';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: local('Baloo Bhaina 2 ExtraBold'), local('BalooBhaina2-ExtraBold'), url(../fonts/baloobhaina2/v1/qWcwB6yyq4P9Adr3RtoX1q6ySiRbtCEpm4cxXw.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Baloo Bhaina 2';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: local('Baloo Bhaina 2 ExtraBold'), local('BalooBhaina2-ExtraBold'), url(../fonts/baloobhaina2/v1/qWcwB6yyq4P9Adr3RtoX1q6ySiRbtCEnm4c.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}

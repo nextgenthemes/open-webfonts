@@ -1,0 +1,108 @@
+/* hebrew */
+@font-face {
+  font-family: 'Assistant';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: local('Assistant ExtraLight'), local('Assistant-ExtraLight'), url(../fonts/assistant/v4/2sDZZGJYnIjSi6H75xk7p0SsBp0YXCg.woff2) format('woff2');
+  unicode-range: U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* latin */
+@font-face {
+  font-family: 'Assistant';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: local('Assistant ExtraLight'), local('Assistant-ExtraLight'), url(../fonts/assistant/v4/2sDZZGJYnIjSi6H75xk7p0SsBJ0Y.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* hebrew */
+@font-face {
+  font-family: 'Assistant';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Assistant Light'), local('Assistant-Light'), url(../fonts/assistant/v4/2sDZZGJYnIjSi6H75xk7w0esBp0YXCg.woff2) format('woff2');
+  unicode-range: U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* latin */
+@font-face {
+  font-family: 'Assistant';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Assistant Light'), local('Assistant-Light'), url(../fonts/assistant/v4/2sDZZGJYnIjSi6H75xk7w0esBJ0Y.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* hebrew */
+@font-face {
+  font-family: 'Assistant';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Assistant'), local('Assistant-Regular'), url(../fonts/assistant/v4/2sDcZGJYnIjSi6H75xkzamW5O7w.woff2) format('woff2');
+  unicode-range: U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* latin */
+@font-face {
+  font-family: 'Assistant';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Assistant'), local('Assistant-Regular'), url(../fonts/assistant/v4/2sDcZGJYnIjSi6H75xkzaGW5.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* hebrew */
+@font-face {
+  font-family: 'Assistant';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Assistant SemiBold'), local('Assistant-SemiBold'), url(../fonts/assistant/v4/2sDZZGJYnIjSi6H75xk7t0GsBp0YXCg.woff2) format('woff2');
+  unicode-range: U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* latin */
+@font-face {
+  font-family: 'Assistant';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Assistant SemiBold'), local('Assistant-SemiBold'), url(../fonts/assistant/v4/2sDZZGJYnIjSi6H75xk7t0GsBJ0Y.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* hebrew */
+@font-face {
+  font-family: 'Assistant';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Assistant Bold'), local('Assistant-Bold'), url(../fonts/assistant/v4/2sDZZGJYnIjSi6H75xk700CsBp0YXCg.woff2) format('woff2');
+  unicode-range: U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* latin */
+@font-face {
+  font-family: 'Assistant';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Assistant Bold'), local('Assistant-Bold'), url(../fonts/assistant/v4/2sDZZGJYnIjSi6H75xk700CsBJ0Y.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* hebrew */
+@font-face {
+  font-family: 'Assistant';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: local('Assistant ExtraBold'), local('Assistant-ExtraBold'), url(../fonts/assistant/v4/2sDZZGJYnIjSi6H75xk7z0OsBp0YXCg.woff2) format('woff2');
+  unicode-range: U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* latin */
+@font-face {
+  font-family: 'Assistant';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: local('Assistant ExtraBold'), local('Assistant-ExtraBold'), url(../fonts/assistant/v4/2sDZZGJYnIjSi6H75xk7z0OsBJ0Y.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}

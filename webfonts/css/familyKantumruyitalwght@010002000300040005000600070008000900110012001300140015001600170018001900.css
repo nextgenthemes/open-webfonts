@@ -1,0 +1,27 @@
+/* khmer */
+@font-face {
+  font-family: 'Kantumruy';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Kantumruy Light'), local('KantumruyLight'), url(../fonts/kantumruy/v7/syk0-yJ0m7wyVb-f4FOPUtDVqnWVF1E.woff2) format('woff2');
+  unicode-range: U+1780-17FF, U+200C, U+25CC;
+}
+/* khmer */
+@font-face {
+  font-family: 'Kantumruy';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Kantumruy'), url(../fonts/kantumruy/v7/sykx-yJ0m7wyVb-f4FOH8vLAnlQ.woff2) format('woff2');
+  unicode-range: U+1780-17FF, U+200C, U+25CC;
+}
+/* khmer */
+@font-face {
+  font-family: 'Kantumruy';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Kantumruy Bold'), local('Kantumruy-Bold'), url(../fonts/kantumruy/v7/syk0-yJ0m7wyVb-f4FOPQtfVqnWVF1E.woff2) format('woff2');
+  unicode-range: U+1780-17FF, U+200C, U+25CC;
+}
