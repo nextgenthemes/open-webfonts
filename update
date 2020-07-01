@@ -4,10 +4,10 @@ git checkout upstream/master -- apache
 git checkout upstream/master -- ofl
 git checkout upstream/master -- ufl
 
-#find apache -type f ! \( -name "LICENCE.txt" -o -name "LICENSE.txt" -o -name "OFL.txt" -o -name "UFL.txt" \) -delete
-#find ufl    -type f ! \( -name "LICENCE.txt" -o -name "LICENSE.txt" -o -name "OFL.txt" -o -name "UFL.txt" \) -delete
-#find ofl    -type f ! \( -name "LICENCE.txt" -o -name "LICENSE.txt" -o -name "OFL.txt" -o -name "UFL.txt" \) -delete
+find apache -type f ! \( -name "LICENCE.txt" -o -name "LICENSE.txt" -o -name "OFL.txt" -o -name "UFL.txt" \) -delete
+find ufl    -type f ! \( -name "LICENCE.txt" -o -name "LICENSE.txt" -o -name "OFL.txt" -o -name "UFL.txt" \) -delete
+find ofl    -type f ! \( -name "LICENCE.txt" -o -name "LICENSE.txt" -o -name "OFL.txt" -o -name "UFL.txt" \) -delete
 
-#./open-webfonts 9999
+./open-webfonts 9999
 
 git status
