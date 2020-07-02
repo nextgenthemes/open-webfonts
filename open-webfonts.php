@@ -95,7 +95,7 @@ function most_popular_fonts( int $num ) {
 function filename( string $google_css_url ): string {
 
 	$filename = str_replace(
-		[ 'https://fonts.googleapis.com/css2?', '&display=swap', '/' ],
+		[ 'https://fonts.googleapis.com/css2?', '&display=swap', 'family', '/' ],
 		'',
 		$google_css_url
 	);
@@ -184,8 +184,10 @@ function prepare_fonts( string $google_css_url, bool $storage = false ): string 
 		$zipurl  = content_url() . '/uploads/webfont-zips/' . basename($zipfile);
 	}
 
-	$font_css_file = "$dir/css/$filename.css";
+	$font_css_file     = "$dir/css/$filename.css";
+	$font_css_file_b64 = "$dir/css/$filename-b64.css";
 	$css           = download($google_css_url);
+	$css_b64       = $css;
 
 	if ( ! $css ) {
 		return '';
@@ -206,11 +208,15 @@ function prepare_fonts( string $google_css_url, bool $storage = false ): string 
 		}
 
 		$font_dirs[] = $match['id'] . '/' . $match['version'];
-		$css         = css_prep_font_download( $match, $css, $dir, $cache_dir );
-
-		if ( ! $css ) {
-			return '';
-		}
+		$css_prep    = css_prep_font_download(
+			$match,
+			$css,
+			$css_b64,
+			$dir, 
+			$cache_dir
+		);
+		$css     = $css_prep['url'];
+		$css_b64 = $css_prep['b64'];
 	}
 
 	if ( ! is_dir( dirname($font_css_file) ) ) {
@@ -219,6 +225,9 @@ function prepare_fonts( string $google_css_url, bool $storage = false ): string 
 
 	file_put_contents( $font_css_file, $css );
 	print_line( maybe_basename($font_css_file) . ' saved');
+
+	file_put_contents( $font_css_file_b64, $css_b64 );
+	print_line( maybe_basename($font_css_file_b64) . ' saved');
 
 	if ( $zipfile ) {
 		$zipfile = create_zip( $zipfile, $dir, $font_dirs );
@@ -231,7 +240,7 @@ function prepare_fonts( string $google_css_url, bool $storage = false ): string 
 	return '';
 }
 
-function css_prep_font_download( array $match, string $css, string $dir, string $cache_dir ): string {
+function css_prep_font_download( array $match, string $css, string $css_b64, string $dir, string $cache_dir ): array {
 
 	$id           = $match['id'];
 	$uid          = $match['uid'];
@@ -276,9 +285,12 @@ function css_prep_font_download( array $match, string $css, string $dir, string 
 		copy( $license_file, $license_file_dist );
 	}
 
-	$css = str_replace( $url, '../' . $font_file_relative, $css );
+	$b64 = base64_encode( file_get_contents( $font_file_absolute ) );
 
-	return $css;
+	return [
+		'url' => str_replace( $url, '../' . $font_file_relative, $css ),
+		'b64' => str_replace( $url, 'data:font/woff2;charset=utf-8;base64,' . $b64, $css_b64 ),
+	];
 }
 
 function license_file( string $font_id, string $cache_dir ): string {
