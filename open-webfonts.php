@@ -19,20 +19,23 @@ init();
 
 function init() {
 
-	if ( 'cli' === php_sapi_name() ) {
-		global $argv;
-
-		$url_or_int = empty( $argv[1] ) ? 'poop' : $argv[1];
-		get_webfonts( $url_or_int );
-	} else {
-		if ( ! defined( 'ABSPATH' ) ) {
-			exit; // Exit if accessed directly (outside WordPress)
-		}
+	if ( is_wp() ) {
 
 		add_action( 'init', function() {
 			add_shortcode( 'webfonts', __NAMESPACE__ . '\shortcode' );
 		} );
+
+	} else {
+
+		global $argv;
+
+		$url_or_int = empty( $argv[1] ) ? 'poop' : $argv[1];
+		get_webfonts( $url_or_int );
 	}
+}
+
+function is_wp() {
+	return ( defined( 'ABSPATH' ) || defined( 'WP_CLI' ) );
 }
 
 function shortcode( $args = [], $content = '' ) {
@@ -46,7 +49,7 @@ function get_webfonts( string $url_or_int ) {
 	$url_or_int = trim( $url_or_int );
 	$html       = '';
 
-	if ( 'cli' === php_sapi_name() && is_numeric( $url_or_int ) ) {
+	if ( ! is_wp() && is_numeric( $url_or_int ) ) {
 		most_popular_fonts( (int) $url_or_int );
 	} else {
 		$html = prepare( $url_or_int );
@@ -95,7 +98,7 @@ function most_popular_fonts( int $num ) {
 function filename( string $google_css_url ): string {
 
 	$filename = str_replace(
-		[ 'https://fonts.googleapis.com/css2?', '&display=swap', 'family', '/' ],
+		[ 'https://fonts.googleapis.com/css2?', '&display=swap', 'family', 'wght', '/' ],
 		'',
 		$google_css_url
 	);
@@ -113,7 +116,7 @@ function prepare( string $google_css_url, bool $storage = false ) {
 
 	if ( ! starts_with($google_css_url, 'https://fonts.googleapis.com/css2') /* || false !== filter_var($google_css_url, FILTER_VALIDATE_URL) */ ) {
 
-		if ( 'cli' === php_sapi_name() ) {
+		if ( ! is_wp() ) {
 			echo 'You must enter Google Fonts CSS url like: https://fonts.googleapis.com/css2?family=Open+Sans...&display=swap';
 			return false;
 		} else {
@@ -125,7 +128,7 @@ function prepare( string $google_css_url, bool $storage = false ) {
 				</div>
 				<div class="row mb-3 gx-1">
 					<div class="col-12 col-sm-10">
-						<input id="googlefontsurl" name="googlefontsurl" placeholder="https://fonts.googleapis.com/css2?family=...display=swap" type="text" class="form-control" aria-describedby="textHelpBlock">
+						<input id="googlefontsurl" name="googlefontsurl" placeholder="https://fonts.googleapis.com/css2?family=...display=swap" type="text" class="form-control" onClick="this.select();" aria-describedby="textHelpBlock">
 					</div>
 					<div class="col-12 col-sm-auto">
 						<button name="submit" type="submit" class="btn btn-primary">Submit</button>
@@ -147,7 +150,7 @@ function prepare( string $google_css_url, bool $storage = false ) {
 			$html .= '<pre class="alignfull"><code>' . "$lines</code></pre>"; // phpcs:ignore
 		else :
 			$html .= sprintf(
-				'<a class="btn btn-lg btn-primary d-block w-100" href="%s">Download Zipfile</a>',
+				'<a class="btn btn-lg btn-primary d-block w-100 mb-1" href="%s">Download Zipfile</a>',
 				esc_url( $zipurl )
 			);
 		endif;
@@ -176,7 +179,7 @@ function prepare_fonts( string $google_css_url, bool $storage = false ): string 
 	$dir       = __DIR__ . "/zips/$filename";
 	$zipfile   = __DIR__ . "/zips/$filename.zip";
 
-	if ( $storage && 'cli' === php_sapi_name() ) {
+	if ( $storage && ! is_wp() ) {
 		$dir     = $cache_dir;
 		$zipfile = false;
 	} elseif ( 'cli' !== php_sapi_name() ) {
@@ -215,6 +218,11 @@ function prepare_fonts( string $google_css_url, bool $storage = false ): string 
 			$dir, 
 			$cache_dir
 		);
+
+		if ( ! $css_prep ) {
+			return '';
+		}
+
 		$css     = $css_prep['url'];
 		$css_b64 = $css_prep['b64'];
 	}
@@ -240,7 +248,7 @@ function prepare_fonts( string $google_css_url, bool $storage = false ): string 
 	return '';
 }
 
-function css_prep_font_download( array $match, string $css, string $css_b64, string $dir, string $cache_dir ): array {
+function css_prep_font_download( array $match, string $css, string $css_b64, string $dir, string $cache_dir ): ?array {
 
 	$id           = $match['id'];
 	$uid          = $match['uid'];
@@ -271,7 +279,7 @@ function css_prep_font_download( array $match, string $css, string $css_b64, str
 			$font_file_content = download($url);
 
 			if ( ! $font_file_content ) {
-				return '';
+				return null;
 			}
 
 			file_put_contents( $font_file_absolute, $font_file_content );
@@ -367,7 +375,6 @@ function create_zip( string $zipfile, string $dir, array $font_dirs ): string {
 			$zip->addGlob( "$dir/fonts/$fontdir" . '/*.{woff2,txt}', GLOB_BRACE, $options);
 		}
 
-		# Just a single file, no need to glob but ...
 		$options = array(
 			'add_path'        => 'css/',
 			'remove_all_path' => true,
@@ -401,7 +408,7 @@ function recursive_delete( string $dir ): void {
 }
 
 function maybe_basename( $path ) {
-	return 'cli' === php_sapi_name() ? $path : esc_html( basename( $path ) );
+	return ! is_wp() ? $path : esc_html( basename( $path ) );
 }
 
 function contains($haystack, $needle) {
@@ -420,7 +427,7 @@ function print_line( string $line, bool $return = false ) {
 		return $lines;
 	}
 
-	if ( 'cli' === php_sapi_name() ) {
+	if ( ! is_wp() ) {
 		// phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 		echo $line . PHP_EOL;
 	} else {
