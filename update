@@ -9,4 +9,7 @@ find apache -type f ! \( -name "LICENCE.txt" -o -name "LICENSE.txt" -o -name "OF
 find ufl -type f ! \( -name "LICENCE.txt" -o -name "LICENSE.txt" -o -name "OFL.txt" -o -name "UFL.txt" \) -delete
 find ofl -type f ! \( -name "LICENCE.txt" -o -name "LICENSE.txt" -o -name "OFL.txt" -o -name "UFL.txt" \) -delete
 
-git status
+./open-webfonts 9999
+
+git commit -am 'Update'
+git push
