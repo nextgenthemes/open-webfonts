@@ -1,0 +1,9 @@
+/* khmer */
+@font-face {
+  font-family: 'Metal';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Metal'), url(../fonts/metal/v13/lW-wwjUJIXTo7h3rlIUwUQ.woff2) format('woff2');
+  unicode-range: U+1780-17FF, U+200C, U+25CC;
+}

@@ -1,0 +1,9 @@
+/* khmer */
+@font-face {
+  font-family: 'Chenla';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Chenla'), url(../fonts/chenla/v13/SZc43FDpIKu8WZ9uUx3prUM.woff2) format('woff2');
+  unicode-range: U+1780-17FF, U+200C, U+25CC;
+}

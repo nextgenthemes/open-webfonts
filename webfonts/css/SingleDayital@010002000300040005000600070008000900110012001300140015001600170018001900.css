@@ -1,0 +1,9 @@
+/* korean */
+@font-face {
+  font-family: 'Single Day';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Single Day Regular'), local('SingleDay-Regular'), url(../fonts/singleday/v2/LYjHdGDjlEgoAcF95EI5vVcPUefe.woff2) format('woff2');
+  unicode-range: U+3131-318E, U+3200-321C, U+3260-327B, U+AC00-D7AF;
+}

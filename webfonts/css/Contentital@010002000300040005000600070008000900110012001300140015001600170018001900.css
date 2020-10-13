@@ -1,0 +1,18 @@
+/* khmer */
+@font-face {
+  font-family: 'Content';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Content'), url(../fonts/content/v13/zrfl0HLayePhU_AwYaz4IxL0.woff2) format('woff2');
+  unicode-range: U+1780-17FF, U+200C, U+25CC;
+}
+/* khmer */
+@font-face {
+  font-family: 'Content';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Content Bold'), local('Content-Bold'), url(../fonts/content/v13/zrfg0HLayePhU_AwaRzdNibVWRHv.woff2) format('woff2');
+  unicode-range: U+1780-17FF, U+200C, U+25CC;
+}

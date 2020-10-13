@@ -1,0 +1,9 @@
+/* khmer */
+@font-face {
+  font-family: 'Koulen';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Koulen'), url(../fonts/koulen/v14/AMOQz46as3KIBPemjno8ouY.woff2) format('woff2');
+  unicode-range: U+1780-17FF, U+200C, U+25CC;
+}
