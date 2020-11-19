@@ -4,6 +4,6 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Kdam Thmor'), local('KdamThmor'), url(../fonts/kdamthmor/v9/MwQzbhjs3veF6QwJVf0JoG8fiIlP.woff2) format('woff2');
+  src: url(../fonts/kdamthmor/v9/MwQzbhjs3veF6QwJVf0JoG8fiIlP.woff2) format('woff2');
   unicode-range: U+1780-17FF, U+200C, U+25CC;
 }

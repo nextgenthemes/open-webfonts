@@ -4,6 +4,6 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Moul'), url(../fonts/moul/v12/nuF2D__FSo_3I-hSiaCy.woff2) format('woff2');
+  src: url(../fonts/moul/v12/nuF2D__FSo_3I-hSiaCy.woff2) format('woff2');
   unicode-range: U+1780-17FF, U+200C, U+25CC;
 }

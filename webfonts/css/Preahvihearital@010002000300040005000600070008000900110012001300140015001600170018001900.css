@@ -4,6 +4,6 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Preah Vihear'), local('PreahVihear'), url(../fonts/preahvihear/v12/6NUS8F-dNQeEYhzj7uluxvwI6dB5fw.woff2) format('woff2');
+  src: url(../fonts/preahvihear/v12/6NUS8F-dNQeEYhzj7uluxvwI6dB5fw.woff2) format('woff2');
   unicode-range: U+1780-17FF, U+200C, U+25CC;
 }

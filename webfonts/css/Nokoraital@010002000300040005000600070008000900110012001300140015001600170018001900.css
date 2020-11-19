@@ -4,7 +4,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Nokora Regular'), local('Nokora-Regular'), url(../fonts/nokora/v14/hYkIPuwgTubzaWxgNzAOkvY.woff2) format('woff2');
+  src: url(../fonts/nokora/v14/hYkIPuwgTubzaWxgNzAOkvY.woff2) format('woff2');
   unicode-range: U+1780-17FF, U+200C, U+25CC;
 }
 /* khmer */
@@ -13,6 +13,6 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local('Nokora Bold'), local('Nokora-Bold'), url(../fonts/nokora/v14/hYkLPuwgTubzaWxohxUbptd9yB8.woff2) format('woff2');
+  src: url(../fonts/nokora/v14/hYkLPuwgTubzaWxohxUbptd9yB8.woff2) format('woff2');
   unicode-range: U+1780-17FF, U+200C, U+25CC;
 }

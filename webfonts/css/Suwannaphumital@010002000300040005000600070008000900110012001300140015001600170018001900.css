@@ -4,6 +4,6 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Suwannaphum Regular'), local('Suwannaphum-Regular'), url(../fonts/suwannaphum/v14/jAnCgHV7GtDvc8jbe8hXXLWp9cGEWg.woff2) format('woff2');
+  src: url(../fonts/suwannaphum/v14/jAnCgHV7GtDvc8jbe8hXXLWp9cGEWg.woff2) format('woff2');
   unicode-range: U+1780-17FF, U+200C, U+25CC;
 }
