@@ -12,5 +12,5 @@ find ofl -type f ! \( -name "LICENCE.txt" -o -name "LICENSE.txt" -o -name "OFL.t
 ./open-webfonts 9999
 
 git add -A
-git commit -am 'Update'
+git commit -am "Update $(date '+%Y-%m-%d--%H-%M-%S')"
 git push
