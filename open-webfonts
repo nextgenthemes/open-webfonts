@@ -1,3 +1,3 @@
 #!/usr/bin/env php
 <?php
-require_once __DIR__ . '/open-webfonts.php';
+require_once __DIR__ . '/open-webfonts.php'; 

@@ -1,10 +1,281 @@
 /* vietnamese */
 @font-face {
   font-family: 'Saira';
+  font-style: italic;
+  font-weight: 100;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/saira/v6/memhYa2wxmKQyNkiV50dulWP7s95AqZTzbvffS2-vw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Saira';
+  font-style: italic;
+  font-weight: 100;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/saira/v6/memhYa2wxmKQyNkiV50dulWP7s95AqZTzbvefS2-vw.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Saira';
+  font-style: italic;
+  font-weight: 100;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/saira/v6/memhYa2wxmKQyNkiV50dulWP7s95AqZTzbvQfS0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Saira';
+  font-style: italic;
+  font-weight: 200;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/saira/v6/memhYa2wxmKQyNkiV50dulWP7s95AqZTzbvffS2-vw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Saira';
+  font-style: italic;
+  font-weight: 200;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/saira/v6/memhYa2wxmKQyNkiV50dulWP7s95AqZTzbvefS2-vw.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Saira';
+  font-style: italic;
+  font-weight: 200;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/saira/v6/memhYa2wxmKQyNkiV50dulWP7s95AqZTzbvQfS0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Saira';
+  font-style: italic;
+  font-weight: 300;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/saira/v6/memhYa2wxmKQyNkiV50dulWP7s95AqZTzbvffS2-vw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Saira';
+  font-style: italic;
+  font-weight: 300;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/saira/v6/memhYa2wxmKQyNkiV50dulWP7s95AqZTzbvefS2-vw.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Saira';
+  font-style: italic;
+  font-weight: 300;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/saira/v6/memhYa2wxmKQyNkiV50dulWP7s95AqZTzbvQfS0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Saira';
+  font-style: italic;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/saira/v6/memhYa2wxmKQyNkiV50dulWP7s95AqZTzbvffS2-vw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Saira';
+  font-style: italic;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/saira/v6/memhYa2wxmKQyNkiV50dulWP7s95AqZTzbvefS2-vw.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Saira';
+  font-style: italic;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/saira/v6/memhYa2wxmKQyNkiV50dulWP7s95AqZTzbvQfS0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Saira';
+  font-style: italic;
+  font-weight: 500;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/saira/v6/memhYa2wxmKQyNkiV50dulWP7s95AqZTzbvffS2-vw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Saira';
+  font-style: italic;
+  font-weight: 500;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/saira/v6/memhYa2wxmKQyNkiV50dulWP7s95AqZTzbvefS2-vw.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Saira';
+  font-style: italic;
+  font-weight: 500;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/saira/v6/memhYa2wxmKQyNkiV50dulWP7s95AqZTzbvQfS0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Saira';
+  font-style: italic;
+  font-weight: 600;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/saira/v6/memhYa2wxmKQyNkiV50dulWP7s95AqZTzbvffS2-vw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Saira';
+  font-style: italic;
+  font-weight: 600;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/saira/v6/memhYa2wxmKQyNkiV50dulWP7s95AqZTzbvefS2-vw.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Saira';
+  font-style: italic;
+  font-weight: 600;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/saira/v6/memhYa2wxmKQyNkiV50dulWP7s95AqZTzbvQfS0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Saira';
+  font-style: italic;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/saira/v6/memhYa2wxmKQyNkiV50dulWP7s95AqZTzbvffS2-vw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Saira';
+  font-style: italic;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/saira/v6/memhYa2wxmKQyNkiV50dulWP7s95AqZTzbvefS2-vw.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Saira';
+  font-style: italic;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/saira/v6/memhYa2wxmKQyNkiV50dulWP7s95AqZTzbvQfS0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Saira';
+  font-style: italic;
+  font-weight: 800;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/saira/v6/memhYa2wxmKQyNkiV50dulWP7s95AqZTzbvffS2-vw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Saira';
+  font-style: italic;
+  font-weight: 800;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/saira/v6/memhYa2wxmKQyNkiV50dulWP7s95AqZTzbvefS2-vw.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Saira';
+  font-style: italic;
+  font-weight: 800;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/saira/v6/memhYa2wxmKQyNkiV50dulWP7s95AqZTzbvQfS0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Saira';
+  font-style: italic;
+  font-weight: 900;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/saira/v6/memhYa2wxmKQyNkiV50dulWP7s95AqZTzbvffS2-vw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Saira';
+  font-style: italic;
+  font-weight: 900;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/saira/v6/memhYa2wxmKQyNkiV50dulWP7s95AqZTzbvefS2-vw.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Saira';
+  font-style: italic;
+  font-weight: 900;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/saira/v6/memhYa2wxmKQyNkiV50dulWP7s95AqZTzbvQfS0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Saira';
   font-style: normal;
   font-weight: 100;
+  font-stretch: 100%;
   font-display: swap;
-  src: url(../fonts/saira/v5/mem-Ya2wxmKQyNFEfZ41V4Uf.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/saira/v6/memjYa2wxmKQyPMrZX79wwYZQMhsyuSLh4vSZSk.woff2) format('woff2');
   unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
 }
 /* latin-ext */
@@ -12,8 +283,9 @@
   font-family: 'Saira';
   font-style: normal;
   font-weight: 100;
+  font-stretch: 100%;
   font-display: swap;
-  src: url(../fonts/saira/v5/mem-Ya2wxmKQyNFEfZ81V4Uf.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/saira/v6/memjYa2wxmKQyPMrZX79wwYZQMhsyuSLhovSZSk.woff2) format('woff2');
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
@@ -21,8 +293,9 @@
   font-family: 'Saira';
   font-style: normal;
   font-weight: 100;
+  font-stretch: 100%;
   font-display: swap;
-  src: url(../fonts/saira/v5/mem-Ya2wxmKQyNFEfZE1Vw.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/saira/v6/memjYa2wxmKQyPMrZX79wwYZQMhsyuSLiIvS.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 /* vietnamese */
@@ -30,8 +303,9 @@
   font-family: 'Saira';
   font-style: normal;
   font-weight: 200;
+  font-stretch: 100%;
   font-display: swap;
-  src: url(../fonts/saira/v5/mem9Ya2wxmKQyNHobIYdcrgmVA.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/saira/v6/memjYa2wxmKQyPMrZX79wwYZQMhsyuSLh4vSZSk.woff2) format('woff2');
   unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
 }
 /* latin-ext */
@@ -39,8 +313,9 @@
   font-family: 'Saira';
   font-style: normal;
   font-weight: 200;
+  font-stretch: 100%;
   font-display: swap;
-  src: url(../fonts/saira/v5/mem9Ya2wxmKQyNHobIYccrgmVA.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/saira/v6/memjYa2wxmKQyPMrZX79wwYZQMhsyuSLhovSZSk.woff2) format('woff2');
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
@@ -48,8 +323,9 @@
   font-family: 'Saira';
   font-style: normal;
   font-weight: 200;
+  font-stretch: 100%;
   font-display: swap;
-  src: url(../fonts/saira/v5/mem9Ya2wxmKQyNHobIYScrg.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/saira/v6/memjYa2wxmKQyPMrZX79wwYZQMhsyuSLiIvS.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 /* vietnamese */
@@ -57,8 +333,9 @@
   font-family: 'Saira';
   font-style: normal;
   font-weight: 300;
+  font-stretch: 100%;
   font-display: swap;
-  src: url(../fonts/saira/v5/mem9Ya2wxmKQyNGMb4YdcrgmVA.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/saira/v6/memjYa2wxmKQyPMrZX79wwYZQMhsyuSLh4vSZSk.woff2) format('woff2');
   unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
 }
 /* latin-ext */
@@ -66,8 +343,9 @@
   font-family: 'Saira';
   font-style: normal;
   font-weight: 300;
+  font-stretch: 100%;
   font-display: swap;
-  src: url(../fonts/saira/v5/mem9Ya2wxmKQyNGMb4YccrgmVA.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/saira/v6/memjYa2wxmKQyPMrZX79wwYZQMhsyuSLhovSZSk.woff2) format('woff2');
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
@@ -75,8 +353,9 @@
   font-family: 'Saira';
   font-style: normal;
   font-weight: 300;
+  font-stretch: 100%;
   font-display: swap;
-  src: url(../fonts/saira/v5/mem9Ya2wxmKQyNGMb4YScrg.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/saira/v6/memjYa2wxmKQyPMrZX79wwYZQMhsyuSLiIvS.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 /* vietnamese */
@@ -84,8 +363,9 @@
   font-family: 'Saira';
   font-style: normal;
   font-weight: 400;
+  font-stretch: 100%;
   font-display: swap;
-  src: url(../fonts/saira/v5/memwYa2wxmKQyNkoTZMtUw.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/saira/v6/memjYa2wxmKQyPMrZX79wwYZQMhsyuSLh4vSZSk.woff2) format('woff2');
   unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
 }
 /* latin-ext */
@@ -93,8 +373,9 @@
   font-family: 'Saira';
   font-style: normal;
   font-weight: 400;
+  font-stretch: 100%;
   font-display: swap;
-  src: url(../fonts/saira/v5/memwYa2wxmKQyNkpTZMtUw.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/saira/v6/memjYa2wxmKQyPMrZX79wwYZQMhsyuSLhovSZSk.woff2) format('woff2');
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
@@ -102,8 +383,9 @@
   font-family: 'Saira';
   font-style: normal;
   font-weight: 400;
+  font-stretch: 100%;
   font-display: swap;
-  src: url(../fonts/saira/v5/memwYa2wxmKQyNknTZM.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/saira/v6/memjYa2wxmKQyPMrZX79wwYZQMhsyuSLiIvS.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 /* vietnamese */
@@ -111,8 +393,9 @@
   font-family: 'Saira';
   font-style: normal;
   font-weight: 500;
+  font-stretch: 100%;
   font-display: swap;
-  src: url(../fonts/saira/v5/mem9Ya2wxmKQyNHUboYdcrgmVA.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/saira/v6/memjYa2wxmKQyPMrZX79wwYZQMhsyuSLh4vSZSk.woff2) format('woff2');
   unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
 }
 /* latin-ext */
@@ -120,8 +403,9 @@
   font-family: 'Saira';
   font-style: normal;
   font-weight: 500;
+  font-stretch: 100%;
   font-display: swap;
-  src: url(../fonts/saira/v5/mem9Ya2wxmKQyNHUboYccrgmVA.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/saira/v6/memjYa2wxmKQyPMrZX79wwYZQMhsyuSLhovSZSk.woff2) format('woff2');
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
@@ -129,8 +413,9 @@
   font-family: 'Saira';
   font-style: normal;
   font-weight: 500;
+  font-stretch: 100%;
   font-display: swap;
-  src: url(../fonts/saira/v5/mem9Ya2wxmKQyNHUboYScrg.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/saira/v6/memjYa2wxmKQyPMrZX79wwYZQMhsyuSLiIvS.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 /* vietnamese */
@@ -138,8 +423,9 @@
   font-family: 'Saira';
   font-style: normal;
   font-weight: 600;
+  font-stretch: 100%;
   font-display: swap;
-  src: url(../fonts/saira/v5/mem9Ya2wxmKQyNH4aYYdcrgmVA.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/saira/v6/memjYa2wxmKQyPMrZX79wwYZQMhsyuSLh4vSZSk.woff2) format('woff2');
   unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
 }
 /* latin-ext */
@@ -147,8 +433,9 @@
   font-family: 'Saira';
   font-style: normal;
   font-weight: 600;
+  font-stretch: 100%;
   font-display: swap;
-  src: url(../fonts/saira/v5/mem9Ya2wxmKQyNH4aYYccrgmVA.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/saira/v6/memjYa2wxmKQyPMrZX79wwYZQMhsyuSLhovSZSk.woff2) format('woff2');
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
@@ -156,8 +443,9 @@
   font-family: 'Saira';
   font-style: normal;
   font-weight: 600;
+  font-stretch: 100%;
   font-display: swap;
-  src: url(../fonts/saira/v5/mem9Ya2wxmKQyNH4aYYScrg.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/saira/v6/memjYa2wxmKQyPMrZX79wwYZQMhsyuSLiIvS.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 /* vietnamese */
@@ -165,8 +453,9 @@
   font-family: 'Saira';
   font-style: normal;
   font-weight: 700;
+  font-stretch: 100%;
   font-display: swap;
-  src: url(../fonts/saira/v5/mem9Ya2wxmKQyNGcaIYdcrgmVA.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/saira/v6/memjYa2wxmKQyPMrZX79wwYZQMhsyuSLh4vSZSk.woff2) format('woff2');
   unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
 }
 /* latin-ext */
@@ -174,8 +463,9 @@
   font-family: 'Saira';
   font-style: normal;
   font-weight: 700;
+  font-stretch: 100%;
   font-display: swap;
-  src: url(../fonts/saira/v5/mem9Ya2wxmKQyNGcaIYccrgmVA.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/saira/v6/memjYa2wxmKQyPMrZX79wwYZQMhsyuSLhovSZSk.woff2) format('woff2');
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
@@ -183,8 +473,9 @@
   font-family: 'Saira';
   font-style: normal;
   font-weight: 700;
+  font-stretch: 100%;
   font-display: swap;
-  src: url(../fonts/saira/v5/mem9Ya2wxmKQyNGcaIYScrg.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/saira/v6/memjYa2wxmKQyPMrZX79wwYZQMhsyuSLiIvS.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 /* vietnamese */
@@ -192,8 +483,9 @@
   font-family: 'Saira';
   font-style: normal;
   font-weight: 800;
+  font-stretch: 100%;
   font-display: swap;
-  src: url(../fonts/saira/v5/mem9Ya2wxmKQyNGAa4YdcrgmVA.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/saira/v6/memjYa2wxmKQyPMrZX79wwYZQMhsyuSLh4vSZSk.woff2) format('woff2');
   unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
 }
 /* latin-ext */
@@ -201,8 +493,9 @@
   font-family: 'Saira';
   font-style: normal;
   font-weight: 800;
+  font-stretch: 100%;
   font-display: swap;
-  src: url(../fonts/saira/v5/mem9Ya2wxmKQyNGAa4YccrgmVA.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/saira/v6/memjYa2wxmKQyPMrZX79wwYZQMhsyuSLhovSZSk.woff2) format('woff2');
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
@@ -210,8 +503,9 @@
   font-family: 'Saira';
   font-style: normal;
   font-weight: 800;
+  font-stretch: 100%;
   font-display: swap;
-  src: url(../fonts/saira/v5/mem9Ya2wxmKQyNGAa4YScrg.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/saira/v6/memjYa2wxmKQyPMrZX79wwYZQMhsyuSLiIvS.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 /* vietnamese */
@@ -219,8 +513,9 @@
   font-family: 'Saira';
   font-style: normal;
   font-weight: 900;
+  font-stretch: 100%;
   font-display: swap;
-  src: url(../fonts/saira/v5/mem9Ya2wxmKQyNGkaoYdcrgmVA.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/saira/v6/memjYa2wxmKQyPMrZX79wwYZQMhsyuSLh4vSZSk.woff2) format('woff2');
   unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
 }
 /* latin-ext */
@@ -228,8 +523,9 @@
   font-family: 'Saira';
   font-style: normal;
   font-weight: 900;
+  font-stretch: 100%;
   font-display: swap;
-  src: url(../fonts/saira/v5/mem9Ya2wxmKQyNGkaoYccrgmVA.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/saira/v6/memjYa2wxmKQyPMrZX79wwYZQMhsyuSLhovSZSk.woff2) format('woff2');
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
@@ -237,7 +533,8 @@
   font-family: 'Saira';
   font-style: normal;
   font-weight: 900;
+  font-stretch: 100%;
   font-display: swap;
-  src: url(../fonts/saira/v5/mem9Ya2wxmKQyNGkaoYScrg.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/saira/v6/memjYa2wxmKQyPMrZX79wwYZQMhsyuSLiIvS.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
