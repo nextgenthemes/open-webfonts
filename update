@@ -1,9 +1,9 @@
 #!/bin/bash
 
 git fetch upstream
-git checkout upstream/master -- apache
-git checkout upstream/master -- ofl
-git checkout upstream/master -- ufl
+git checkout upstream/main -- apache
+git checkout upstream/main -- ofl
+git checkout upstream/main -- ufl
 
 find apache -type f ! \( -name "LICENCE.txt" -o -name "LICENSE.txt" -o -name "OFL.txt" -o -name "UFL.txt" \) -delete
 find ufl -type f ! \( -name "LICENCE.txt" -o -name "LICENSE.txt" -o -name "OFL.txt" -o -name "UFL.txt" \) -delete
