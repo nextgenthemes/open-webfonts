@@ -14,6 +14,10 @@ use ZipArchive;
 // phpcs:disable WordPress.WP.AlternativeFunctions.curl_curl_instance
 // phpcs:disable WordPress.WP.AlternativeFunctions.curl_curl_setopt
 // phpcs:disable WordPress.WP.AlternativeFunctions.file_system_read_file_put_contents -- Any reason to?
+// php 7.4
+// phpcs:disable PHPCompatibility.FunctionDeclarations.NewNullableTypes
+// phpcs:disable PHPCompatibility.FunctionDeclarations.NewParamTypeDeclarations
+// phpcs:disable PHPCompatibility.FunctionDeclarations.NewReturnTypeDeclarations
 
 init();
 
@@ -21,9 +25,12 @@ function init() {
 
 	if ( is_wp() ) {
 
-		add_action( 'init', function() {
-			add_shortcode( 'webfonts', __NAMESPACE__ . '\shortcode' );
-		} );
+		add_action(
+			'init',
+			function() {
+				add_shortcode( 'webfonts', __NAMESPACE__ . '\shortcode' );
+			}
+		);
 
 	} else {
 
@@ -145,7 +152,7 @@ function prepare( string $google_css_url, bool $storage = false ) {
 	if ( 'cli' !== php_sapi_name() ) {
 
 		$lines = print_line( '', 'get all saved lines' );
-		
+
 		if ( contains( $lines, 'Error' ) ) :
 			$html .= '<pre class="alignfull"><code>' . "$lines</code></pre>"; // phpcs:ignore
 		else :
@@ -189,8 +196,8 @@ function prepare_fonts( string $google_css_url, bool $storage = false ): string 
 
 	$font_css_file     = "$dir/css/$filename.css";
 	$font_css_file_b64 = "$dir/css/$filename-b64.css";
-	$css           = download($google_css_url);
-	$css_b64       = $css;
+	$css               = download($google_css_url);
+	$css_b64           = $css;
 
 	if ( ! $css ) {
 		return '';
@@ -215,7 +222,7 @@ function prepare_fonts( string $google_css_url, bool $storage = false ): string 
 			$match,
 			$css,
 			$css_b64,
-			$dir, 
+			$dir,
 			$cache_dir
 		);
 
@@ -293,6 +300,7 @@ function css_prep_font_download( array $match, string $css, string $css_b64, str
 		copy( $license_file, $license_file_dist );
 	}
 
+	// phpcs:ignore
 	$b64 = base64_encode( file_get_contents( $font_file_absolute ) );
 
 	return [
@@ -340,9 +348,13 @@ function curl_instance() {
 }
 
 function download( string $url ): string {
+
+	$ua_win = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36';
+	$ua_mac = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36';
+
 	$ch = curl_instance();
 	curl_setopt($ch, CURLOPT_URL, $url);
-	curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36');
+	curl_setopt($ch, CURLOPT_USERAGENT, $ua_win);
 	curl_setopt($ch, CURLOPT_RETURNTRANSFER, true );
 	$result      = curl_exec($ch);
 	$http_status = curl_getinfo( $ch, CURLINFO_HTTP_CODE );
