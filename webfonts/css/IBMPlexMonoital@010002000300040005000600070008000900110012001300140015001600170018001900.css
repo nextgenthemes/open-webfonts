@@ -14,7 +14,7 @@
   font-weight: 100;
   font-display: swap;
   src: url(../fonts/ibmplexmono/v12/-F6rfjptAgt5VM-kVkqdyU8n1ioStkdmp-8tFQ.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* vietnamese */
 @font-face {
@@ -59,7 +59,7 @@
   font-weight: 200;
   font-display: swap;
   src: url(../fonts/ibmplexmono/v12/-F6sfjptAgt5VM-kVkqdyU8n1ioSGlZ1hMoQLNg.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* vietnamese */
 @font-face {
@@ -104,7 +104,7 @@
   font-weight: 300;
   font-display: swap;
   src: url(../fonts/ibmplexmono/v12/-F6sfjptAgt5VM-kVkqdyU8n1ioSflV1hMoQLNg.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* vietnamese */
 @font-face {
@@ -149,7 +149,7 @@
   font-weight: 400;
   font-display: swap;
   src: url(../fonts/ibmplexmono/v12/-F6pfjptAgt5VM-kVkqdyU8n1ioa0Xdgv-s.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* vietnamese */
 @font-face {
@@ -194,7 +194,7 @@
   font-weight: 500;
   font-display: swap;
   src: url(../fonts/ibmplexmono/v12/-F6sfjptAgt5VM-kVkqdyU8n1ioSJlR1hMoQLNg.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* vietnamese */
 @font-face {
@@ -239,7 +239,7 @@
   font-weight: 600;
   font-display: swap;
   src: url(../fonts/ibmplexmono/v12/-F6sfjptAgt5VM-kVkqdyU8n1ioSClN1hMoQLNg.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* vietnamese */
 @font-face {
@@ -284,7 +284,7 @@
   font-weight: 700;
   font-display: swap;
   src: url(../fonts/ibmplexmono/v12/-F6sfjptAgt5VM-kVkqdyU8n1ioSblJ1hMoQLNg.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* vietnamese */
 @font-face {
@@ -329,7 +329,7 @@
   font-weight: 100;
   font-display: swap;
   src: url(../fonts/ibmplexmono/v12/-F6pfjptAgt5VM-kVkqdyU8n3kwa0Xdgv-s.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* vietnamese */
 @font-face {
@@ -374,7 +374,7 @@
   font-weight: 200;
   font-display: swap;
   src: url(../fonts/ibmplexmono/v12/-F6qfjptAgt5VM-kVkqdyU8n3uALwlRFgtIU.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* vietnamese */
 @font-face {
@@ -419,7 +419,7 @@
   font-weight: 300;
   font-display: swap;
   src: url(../fonts/ibmplexmono/v12/-F6qfjptAgt5VM-kVkqdyU8n3oQIwlRFgtIU.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* vietnamese */
 @font-face {
@@ -464,7 +464,7 @@
   font-weight: 400;
   font-display: swap;
   src: url(../fonts/ibmplexmono/v12/-F63fjptAgt5VM-kVkqdyU8n1isq129k.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* vietnamese */
 @font-face {
@@ -509,7 +509,7 @@
   font-weight: 500;
   font-display: swap;
   src: url(../fonts/ibmplexmono/v12/-F6qfjptAgt5VM-kVkqdyU8n3twJwlRFgtIU.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* vietnamese */
 @font-face {
@@ -554,7 +554,7 @@
   font-weight: 600;
   font-display: swap;
   src: url(../fonts/ibmplexmono/v12/-F6qfjptAgt5VM-kVkqdyU8n3vAOwlRFgtIU.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* vietnamese */
 @font-face {
@@ -599,7 +599,7 @@
   font-weight: 700;
   font-display: swap;
   src: url(../fonts/ibmplexmono/v12/-F6qfjptAgt5VM-kVkqdyU8n3pQPwlRFgtIU.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* vietnamese */
 @font-face {

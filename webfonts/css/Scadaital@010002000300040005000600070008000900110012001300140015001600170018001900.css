@@ -14,7 +14,7 @@
   font-weight: 400;
   font-display: swap;
   src: url(../fonts/scada/v14/RLp_K5Pv5qumeVJq_TIAamvv.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* latin-ext */
 @font-face {
@@ -50,7 +50,7 @@
   font-weight: 700;
   font-display: swap;
   src: url(../fonts/scada/v14/RLp6K5Pv5qumeVJq9Y0lf1DOYME5.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* latin-ext */
 @font-face {
@@ -86,7 +86,7 @@
   font-weight: 400;
   font-display: swap;
   src: url(../fonts/scada/v14/RLpxK5Pv5qumeVJrzTQYbg.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* latin-ext */
 @font-face {
@@ -122,7 +122,7 @@
   font-weight: 700;
   font-display: swap;
   src: url(../fonts/scada/v14/RLp8K5Pv5qumeVrU6CEjT1bWZA.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* latin-ext */
 @font-face {

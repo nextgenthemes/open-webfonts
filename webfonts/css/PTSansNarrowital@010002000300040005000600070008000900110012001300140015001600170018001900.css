@@ -14,7 +14,7 @@
   font-weight: 400;
   font-display: swap;
   src: url(../fonts/ptsansnarrow/v17/BngRUXNadjH0qYEzV7ab-oWlsbCCwR26eg.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* latin-ext */
 @font-face {
@@ -50,7 +50,7 @@
   font-weight: 700;
   font-display: swap;
   src: url(../fonts/ptsansnarrow/v17/BngSUXNadjH0qYEzV7ab-oWlsbg95AiBW_3QRQ.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* latin-ext */
 @font-face {

@@ -5,7 +5,7 @@
   font-weight: 300;
   font-display: swap;
   src: url(../fonts/bellota/v16/MwQxbhXl3_qEpiwAKJBjHGEvjpFLlXs.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* vietnamese */
 @font-face {
@@ -41,7 +41,7 @@
   font-weight: 400;
   font-display: swap;
   src: url(../fonts/bellota/v16/MwQ0bhXl3_qEpiwAKJBrs0M6tbA.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* vietnamese */
 @font-face {
@@ -77,7 +77,7 @@
   font-weight: 700;
   font-display: swap;
   src: url(../fonts/bellota/v16/MwQxbhXl3_qEpiwAKJBjDGYvjpFLlXs.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* vietnamese */
 @font-face {
@@ -113,7 +113,7 @@
   font-weight: 300;
   font-display: swap;
   src: url(../fonts/bellota/v16/MwQzbhXl3_qEpiwAID55oGAfiIlP.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* vietnamese */
 @font-face {
@@ -149,7 +149,7 @@
   font-weight: 400;
   font-display: swap;
   src: url(../fonts/bellota/v16/MwQ2bhXl3_qEpiwAKJFbtVs-.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* vietnamese */
 @font-face {
@@ -185,7 +185,7 @@
   font-weight: 700;
   font-display: swap;
   src: url(../fonts/bellota/v16/MwQzbhXl3_qEpiwAIC5-oGAfiIlP.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* vietnamese */
 @font-face {

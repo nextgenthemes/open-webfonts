@@ -14,7 +14,7 @@
   font-weight: 300;
   font-display: swap;
   src: url(../fonts/ubuntu/v20/4iCp6KVjbNBYlgoKejZftVyLN4Ffgg.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* greek-ext */
 @font-face {
@@ -68,7 +68,7 @@
   font-weight: 400;
   font-display: swap;
   src: url(../fonts/ubuntu/v20/4iCu6KVjbNBYlgoKej7wl0mwFg.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* greek-ext */
 @font-face {
@@ -122,7 +122,7 @@
   font-weight: 500;
   font-display: swap;
   src: url(../fonts/ubuntu/v20/4iCp6KVjbNBYlgoKejYHtFyLN4Ffgg.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* greek-ext */
 @font-face {
@@ -176,7 +176,7 @@
   font-weight: 700;
   font-display: swap;
   src: url(../fonts/ubuntu/v20/4iCp6KVjbNBYlgoKejZPslyLN4Ffgg.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* greek-ext */
 @font-face {
@@ -230,7 +230,7 @@
   font-weight: 300;
   font-display: swap;
   src: url(../fonts/ubuntu/v20/4iCv6KVjbNBYlgoC1CzjtGyNL4U.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* greek-ext */
 @font-face {
@@ -284,7 +284,7 @@
   font-weight: 400;
   font-display: swap;
   src: url(../fonts/ubuntu/v20/4iCs6KVjbNBYlgoKew72j00.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* greek-ext */
 @font-face {
@@ -338,7 +338,7 @@
   font-weight: 500;
   font-display: swap;
   src: url(../fonts/ubuntu/v20/4iCv6KVjbNBYlgoCjC3jtGyNL4U.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* greek-ext */
 @font-face {
@@ -392,7 +392,7 @@
   font-weight: 700;
   font-display: swap;
   src: url(../fonts/ubuntu/v20/4iCv6KVjbNBYlgoCxCvjtGyNL4U.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* greek-ext */
 @font-face {

@@ -14,7 +14,7 @@
   font-weight: 400;
   font-display: swap;
   src: url(../fonts/philosopher/v19/vEFX2_5QCwIS4_Dhez5jcWBrf0s81-qe.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* vietnamese */
 @font-face {
@@ -50,7 +50,7 @@
   font-weight: 700;
   font-display: swap;
   src: url(../fonts/philosopher/v19/vEFK2_5QCwIS4_Dhez5jcWBrd_QZwtG_Wo7H.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* vietnamese */
 @font-face {
@@ -86,7 +86,7 @@
   font-weight: 400;
   font-display: swap;
   src: url(../fonts/philosopher/v19/vEFV2_5QCwIS4_Dhez5jcWBqT00k0w.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* vietnamese */
 @font-face {
@@ -122,7 +122,7 @@
   font-weight: 700;
   font-display: swap;
   src: url(../fonts/philosopher/v19/vEFI2_5QCwIS4_Dhez5jcWjValgf8tenXg.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* vietnamese */
 @font-face {
