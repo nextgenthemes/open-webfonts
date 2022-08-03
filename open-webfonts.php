@@ -205,8 +205,8 @@ function prepare_fonts( string $google_css_url, bool $storage = false ): string 
 
 	print_line( "Downloded $google_css_url" );
 
-	# https://regex101.com/r/lC52yj/5/
-	$re = '%/* (?<variant>[^ ]+) \*/\n@font-face {\n  font-family: (?<family>[^;]+);\n  font-style: (?<style>[a-z]+);\n  font-weight: (?<weight>[0-9]+);[\n]  (font-display: swap;)?[\n].*url\((?<url>[^)]+/s/(?<id>[^/]+)/(?<version>[^/]+)/(?<uid>[^)]+))%mi';
+	# https://regex101.com/r/lC52yj/6
+	$re = '%/* (?<variant>[^ ]+) \*/\n@font-face {\n  font-family: (?<family>[^;]+);\n  font-style: (?<style>[a-z]+);\n  font-weight: (?<weight>[0-9]+);[\n](  font-stretch: (?<stretch>[0-9]+(\%)?);\n)?  (font-display: swap;)?[\n].*url\((?<url>[^)]+/s/(?<id>[^/]+)/(?<version>[^/]+)/(?<uid>[^)]+))%mi';
 
 	preg_match_all($re, $css, $matches, PREG_SET_ORDER, 0);
 
