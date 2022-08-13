@@ -109,7 +109,7 @@ function filename( string $google_css_url ): string {
 		'',
 		$google_css_url
 	);
-	$filename = preg_replace('/[^a-z0-9@]/i', '', $filename );
+	$filename = strtolower( preg_replace('/[^a-z\@]/i', '', $filename ) );
 	if ( 'cli' !== php_sapi_name() ) {
 		$filename = sanitize_file_name( $filename ); // probably not needed at all after preg_replace
 	}

@@ -11,6 +11,10 @@ find ofl -type f ! \( -name "LICENCE.txt" -o -name "LICENSE.txt" -o -name "OFL.t
 
 ./open-webfonts 9999
 
+rm -r webfonts/css/*
+# Github will refuse files larget then 100MB happens for one file at the time of writing this
+find webfonts/css -type f -size +100M -delete
+
 git add webfonts
 git add apache
 git add ofl
