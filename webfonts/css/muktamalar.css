@@ -1,0 +1,189 @@
+/* tamil */
+@font-face {
+  font-family: 'Mukta Malar';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(../fonts/muktamalar/v12/MCoKzAXyz8LOE2FpJMxZqIMwBuAQ4WveoA.woff2) format('woff2');
+  unicode-range: U+0964-0965, U+0B82-0BFA, U+200C-200D, U+20B9, U+25CC;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Mukta Malar';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(../fonts/muktamalar/v12/MCoKzAXyz8LOE2FpJMxZqIMwBuAI4WveoA.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Mukta Malar';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(../fonts/muktamalar/v12/MCoKzAXyz8LOE2FpJMxZqIMwBuAG4Ws.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* tamil */
+@font-face {
+  font-family: 'Mukta Malar';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(../fonts/muktamalar/v12/MCoKzAXyz8LOE2FpJMxZqINUBeAQ4WveoA.woff2) format('woff2');
+  unicode-range: U+0964-0965, U+0B82-0BFA, U+200C-200D, U+20B9, U+25CC;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Mukta Malar';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(../fonts/muktamalar/v12/MCoKzAXyz8LOE2FpJMxZqINUBeAI4WveoA.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Mukta Malar';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(../fonts/muktamalar/v12/MCoKzAXyz8LOE2FpJMxZqINUBeAG4Ws.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* tamil */
+@font-face {
+  font-family: 'Mukta Malar';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/muktamalar/v12/MCoXzAXyz8LOE2FpJMxZqIvpJ_U5wA.woff2) format('woff2');
+  unicode-range: U+0964-0965, U+0B82-0BFA, U+200C-200D, U+20B9, U+25CC;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Mukta Malar';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/muktamalar/v12/MCoXzAXyz8LOE2FpJMxZqIvxJ_U5wA.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Mukta Malar';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/muktamalar/v12/MCoXzAXyz8LOE2FpJMxZqIv_J_U.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* tamil */
+@font-face {
+  font-family: 'Mukta Malar';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../fonts/muktamalar/v12/MCoKzAXyz8LOE2FpJMxZqIMMBOAQ4WveoA.woff2) format('woff2');
+  unicode-range: U+0964-0965, U+0B82-0BFA, U+200C-200D, U+20B9, U+25CC;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Mukta Malar';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../fonts/muktamalar/v12/MCoKzAXyz8LOE2FpJMxZqIMMBOAI4WveoA.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Mukta Malar';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../fonts/muktamalar/v12/MCoKzAXyz8LOE2FpJMxZqIMMBOAG4Ws.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* tamil */
+@font-face {
+  font-family: 'Mukta Malar';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../fonts/muktamalar/v12/MCoKzAXyz8LOE2FpJMxZqIMgA-AQ4WveoA.woff2) format('woff2');
+  unicode-range: U+0964-0965, U+0B82-0BFA, U+200C-200D, U+20B9, U+25CC;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Mukta Malar';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../fonts/muktamalar/v12/MCoKzAXyz8LOE2FpJMxZqIMgA-AI4WveoA.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Mukta Malar';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../fonts/muktamalar/v12/MCoKzAXyz8LOE2FpJMxZqIMgA-AG4Ws.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* tamil */
+@font-face {
+  font-family: 'Mukta Malar';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../fonts/muktamalar/v12/MCoKzAXyz8LOE2FpJMxZqINEAuAQ4WveoA.woff2) format('woff2');
+  unicode-range: U+0964-0965, U+0B82-0BFA, U+200C-200D, U+20B9, U+25CC;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Mukta Malar';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../fonts/muktamalar/v12/MCoKzAXyz8LOE2FpJMxZqINEAuAI4WveoA.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Mukta Malar';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../fonts/muktamalar/v12/MCoKzAXyz8LOE2FpJMxZqINEAuAG4Ws.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* tamil */
+@font-face {
+  font-family: 'Mukta Malar';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(../fonts/muktamalar/v12/MCoKzAXyz8LOE2FpJMxZqINYAeAQ4WveoA.woff2) format('woff2');
+  unicode-range: U+0964-0965, U+0B82-0BFA, U+200C-200D, U+20B9, U+25CC;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Mukta Malar';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(../fonts/muktamalar/v12/MCoKzAXyz8LOE2FpJMxZqINYAeAI4WveoA.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Mukta Malar';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(../fonts/muktamalar/v12/MCoKzAXyz8LOE2FpJMxZqINYAeAG4Ws.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
