@@ -105,11 +105,12 @@ function most_popular_fonts( int $num ) {
 function filename( string $google_css_url ): string {
 
 	$filename = str_replace(
-		[ 'https://fonts.googleapis.com/css2?', '&display=swap', 'family', 'wght', '/' ],
+		[ 'https://fonts.googleapis.com/css2?', '&display=swap', 'family', 'wght', '/', 'ital' ],
 		'',
 		$google_css_url
 	);
-	$filename = strtolower( preg_replace('/[^a-z\@]/i', '', $filename ) );
+	$filename = strtolower( preg_replace('/[^a-z]/i', '', $filename ) );
+
 	if ( 'cli' !== php_sapi_name() ) {
 		$filename = sanitize_file_name( $filename ); // probably not needed at all after preg_replace
 	}
@@ -177,9 +178,6 @@ function prepare( string $google_css_url, bool $storage = false ) {
 function prepare_fonts( string $google_css_url, bool $storage = false ): string {
 
 	$filename = filename( $google_css_url );
-
-	print_r($filename);
-	exit;
 
 	if ( strlen( $filename ) >= 242 ) { // ZipArchive creates a temorary file that adds more then 4 characters so not sure how many
 		$filename = hash( 'sha512', $filename );
