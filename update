@@ -9,9 +9,9 @@ find apache -type f ! \( -name "LICENCE.txt" -o -name "LICENSE.txt" -o -name "OF
 find ufl -type f ! \( -name "LICENCE.txt" -o -name "LICENSE.txt" -o -name "OFL.txt" -o -name "UFL.txt" \) -delete
 find ofl -type f ! \( -name "LICENCE.txt" -o -name "LICENSE.txt" -o -name "OFL.txt" -o -name "UFL.txt" \) -delete
 
+rm -r webfonts/css/*
 ./open-webfonts 9999
 
-rm -r webfonts/css/*
 # Github will refuse files larget then 100MB happens for one file at the time of writing this
 find webfonts/css -type f -size +100M -delete
 
