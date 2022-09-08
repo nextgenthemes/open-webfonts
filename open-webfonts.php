@@ -5,7 +5,7 @@ use ZipArchive;
 /**
  * @author  Nicolas Jonas <nextgenthemes.com>
  * @license GPL 3.0
-*/
+ */
 // phpcs:disable WordPress.WP.AlternativeFunctions.curl_curl_close
 // phpcs:disable WordPress.WP.AlternativeFunctions.curl_curl_errno
 // phpcs:disable WordPress.WP.AlternativeFunctions.curl_curl_exec
