@@ -361,6 +361,7 @@ function download( string $url ): string {
 	$http_status = curl_getinfo( $ch, CURLINFO_HTTP_CODE );
 	if ( 200 !== $http_status ) {
 		print_line( "Error: HTTP status code: $http_status" );
+		print_line( "URL: $url" );
 		return '';
 	}
 
