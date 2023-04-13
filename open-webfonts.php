@@ -74,7 +74,7 @@ function most_popular_fonts( int $num ) {
 	}
 
 	$i    = 1;
-	$json = download('https://google-webfonts-helper.herokuapp.com/api/fonts' );
+	$json = download('https://https://gwfh.mranftl.com/api/fonts' );
 
 	if ( ! $json ) {
 		return;
