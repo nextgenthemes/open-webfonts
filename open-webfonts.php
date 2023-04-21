@@ -125,7 +125,7 @@ class OpenWebfonts {
 		endforeach;
 	}
 
-	private static function filename( string $google_css_url ): string {
+	private function filename( string $google_css_url ): string {
 
 		$filename = str_replace(
 			[ 'https://fonts.googleapis.com/css2?', '&display=swap', 'family', 'wght', '/', 'ital' ],
