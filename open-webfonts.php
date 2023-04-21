@@ -32,6 +32,7 @@ use ZipArchive;
 // phpcs:disable PHPCompatibility.FunctionDeclarations.NewParamTypeDeclarations
 // phpcs:disable PHPCompatibility.FunctionDeclarations.NewReturnTypeDeclarations
 
+// Only allow php from WP, allow CLI
 if ( 'cli' !== php_sapi_name() && ! defined( 'ABSPATH' ) ) {
 	exit;
 }
@@ -47,7 +48,7 @@ class OpenWebfonts {
 	public function __construct() {
 
 		$this->curl  = curl_init();
-		$this->is_wp = defined( 'ABSPATH' );
+		$this->is_wp = defined( 'ABSPATH' ) && 'cli' !== php_sapi_name();
 
 		if ( $this->is_wp ) {
 
@@ -91,7 +92,7 @@ class OpenWebfonts {
 
 	private function most_popular_fonts( int $num ) {
 
-		if ( 'cli' !== php_sapi_name() ) {
+		if ( $this->is_wp ) {
 			return;
 		}
 
@@ -133,7 +134,7 @@ class OpenWebfonts {
 		);
 		$filename = strtolower( preg_replace('/[^a-z]/i', '', $filename ) );
 
-		if ( 'cli' !== php_sapi_name() ) {
+		if ( $this->is_wp ) {
 			$filename = \sanitize_file_name( $filename ); // probably not needed at all after preg_replace
 		}
 
@@ -172,7 +173,7 @@ class OpenWebfonts {
 
 		$zip_url = $this->prepare_fonts( $google_css_url, $storage );
 
-		if ( 'cli' !== php_sapi_name() ) {
+		if ( $this->is_wp ) {
 
 			$lines = $this->print_line( '', true );
 
@@ -209,12 +210,12 @@ class OpenWebfonts {
 		$dir       = __DIR__ . "/zips/$filename";
 		$zipfile   = __DIR__ . "/zips/$filename.zip";
 
-		if ( $storage && ! $this->is_wp ) {
+		if ( $this->is_wp ) {
+			$zipfile = WP_CONTENT_DIR . "/uploads/webfont-zips/$filename.zip";
+			$zip_url = content_url() . '/uploads/webfont-zips/' . basename($zipfile);
+		} elseif ( $storage ) {
 			$dir     = $cache_dir;
 			$zipfile = false;
-		} elseif ( 'cli' !== php_sapi_name() ) {
-			$zipfile = WP_CONTENT_DIR . "/uploads/webfont-zips/$filename.zip";
-			$zip_url  = content_url() . '/uploads/webfont-zips/' . basename($zipfile);
 		}
 
 		$font_css_file     = "$dir/css/$filename.css";
