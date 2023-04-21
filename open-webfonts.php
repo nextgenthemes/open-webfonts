@@ -1,8 +1,4 @@
 <?php declare(strict_types = 1);
-
-namespace Nextgenthemes\OpenWebfonts;
-
-use ZipArchive;
 /**
  * Plugin Name:       NGT Google Webfont Downloader
  * Plugin URI:        https://nextgenthemes.com/google-webfont-downloader/
@@ -18,6 +14,9 @@ use ZipArchive;
  * @license GPL 3.0
  * @link    https://nextgenthemes.com
  */
+namespace Nextgenthemes\OpenWebfonts;
+
+use ZipArchive;
 
 // phpcs:disable WordPress.WP.AlternativeFunctions.curl_curl_close
 // phpcs:disable WordPress.WP.AlternativeFunctions.curl_curl_errno
