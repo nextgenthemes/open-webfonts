@@ -1078,6 +1078,24 @@
   src: url(../fonts/shipporiminchob1/v21/wXK2E2wCr44tulPdnn-xbIpJ9RgT9-nyi8h71ELPjQ9t1VBJ6LVRP1NrgmOq6Go.119.woff2) format('woff2');
   unicode-range: U+20, U+2027, U+3001-3002, U+3041-307f, U+3081-308f, U+3091-3093, U+3099-309a, U+309d-309e, U+30a1-30e1, U+30e3-30ed, U+30ef-30f0, U+30f2-30f4, U+30fb-30fe, U+ff0c, U+ff0e;
 }
+/* latin-ext */
+@font-face {
+  font-family: 'Shippori Mincho B1';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/shipporiminchob1/v21/wXK2E2wCr44tulPdnn-xbIpJ9RgT9-nCh6pq5lM.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Shippori Mincho B1';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/shipporiminchob1/v21/wXK2E2wCr44tulPdnn-xbIpJ9RgT9-nCiapq.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
 /* [0] */
 @font-face {
   font-family: 'Shippori Mincho B1';
@@ -2157,6 +2175,24 @@
   font-display: swap;
   src: url(../fonts/shipporiminchob1/v21/wXK1E2wCr44tulPdnn-xbIpJ9RgT9-nKeolP2xCx5m9m2kVb449GP2pukmm_jQafeeM.119.woff2) format('woff2');
   unicode-range: U+20, U+2027, U+3001-3002, U+3041-307f, U+3081-308f, U+3091-3093, U+3099-309a, U+309d-309e, U+30a1-30e1, U+30e3-30ed, U+30ef-30f0, U+30f2-30f4, U+30fb-30fe, U+ff0c, U+ff0e;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Shippori Mincho B1';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../fonts/shipporiminchob1/v21/wXK1E2wCr44tulPdnn-xbIpJ9RgT9-nKeol_13Kg1H4.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Shippori Mincho B1';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../fonts/shipporiminchob1/v21/wXK1E2wCr44tulPdnn-xbIpJ9RgT9-nKeol_2XKg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 /* [0] */
 @font-face {
@@ -3238,6 +3274,24 @@
   src: url(../fonts/shipporiminchob1/v21/wXK1E2wCr44tulPdnn-xbIpJ9RgT9-nKVo5P2xCx5m9m2kVb449GP2pukmm_jQafeeM.119.woff2) format('woff2');
   unicode-range: U+20, U+2027, U+3001-3002, U+3041-307f, U+3081-308f, U+3091-3093, U+3099-309a, U+309d-309e, U+30a1-30e1, U+30e3-30ed, U+30ef-30f0, U+30f2-30f4, U+30fb-30fe, U+ff0c, U+ff0e;
 }
+/* latin-ext */
+@font-face {
+  font-family: 'Shippori Mincho B1';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../fonts/shipporiminchob1/v21/wXK1E2wCr44tulPdnn-xbIpJ9RgT9-nKVo5_13Kg1H4.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Shippori Mincho B1';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../fonts/shipporiminchob1/v21/wXK1E2wCr44tulPdnn-xbIpJ9RgT9-nKVo5_2XKg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
 /* [0] */
 @font-face {
   font-family: 'Shippori Mincho B1';
@@ -4318,6 +4372,24 @@
   src: url(../fonts/shipporiminchob1/v21/wXK1E2wCr44tulPdnn-xbIpJ9RgT9-nKMo9P2xCx5m9m2kVb449GP2pukmm_jQafeeM.119.woff2) format('woff2');
   unicode-range: U+20, U+2027, U+3001-3002, U+3041-307f, U+3081-308f, U+3091-3093, U+3099-309a, U+309d-309e, U+30a1-30e1, U+30e3-30ed, U+30ef-30f0, U+30f2-30f4, U+30fb-30fe, U+ff0c, U+ff0e;
 }
+/* latin-ext */
+@font-face {
+  font-family: 'Shippori Mincho B1';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../fonts/shipporiminchob1/v21/wXK1E2wCr44tulPdnn-xbIpJ9RgT9-nKMo9_13Kg1H4.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Shippori Mincho B1';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../fonts/shipporiminchob1/v21/wXK1E2wCr44tulPdnn-xbIpJ9RgT9-nKMo9_2XKg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
 /* [0] */
 @font-face {
   font-family: 'Shippori Mincho B1';
@@ -5397,4 +5469,22 @@
   font-display: swap;
   src: url(../fonts/shipporiminchob1/v21/wXK1E2wCr44tulPdnn-xbIpJ9RgT9-nKLoxP2xCx5m9m2kVb449GP2pukmm_jQafeeM.119.woff2) format('woff2');
   unicode-range: U+20, U+2027, U+3001-3002, U+3041-307f, U+3081-308f, U+3091-3093, U+3099-309a, U+309d-309e, U+30a1-30e1, U+30e3-30ed, U+30ef-30f0, U+30f2-30f4, U+30fb-30fe, U+ff0c, U+ff0e;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Shippori Mincho B1';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(../fonts/shipporiminchob1/v21/wXK1E2wCr44tulPdnn-xbIpJ9RgT9-nKLox_13Kg1H4.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Shippori Mincho B1';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(../fonts/shipporiminchob1/v21/wXK1E2wCr44tulPdnn-xbIpJ9RgT9-nKLox_2XKg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
