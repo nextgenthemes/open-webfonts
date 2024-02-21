@@ -5,7 +5,7 @@
   font-weight: 100;
   font-display: swap;
   src: url(../fonts/hanuman/v22/VuJzdNvD15HhpJJBQMLtMKljWRo.woff2) format('woff2');
-  unicode-range: U+1780-17FF, U+19E0-19FF, U+200C, U+25CC;
+  unicode-range: U+1780-17FF, U+19E0-19FF, U+200C-200D, U+25CC;
 }
 /* latin */
 @font-face {
@@ -23,7 +23,7 @@
   font-weight: 300;
   font-display: swap;
   src: url(../fonts/hanuman/v22/VuJ0dNvD15HhpJJBQAr_LIVGZCNc.woff2) format('woff2');
-  unicode-range: U+1780-17FF, U+19E0-19FF, U+200C, U+25CC;
+  unicode-range: U+1780-17FF, U+19E0-19FF, U+200C-200D, U+25CC;
 }
 /* latin */
 @font-face {
@@ -41,7 +41,7 @@
   font-weight: 400;
   font-display: swap;
   src: url(../fonts/hanuman/v22/VuJxdNvD15HhpJJBSKrdObFn.woff2) format('woff2');
-  unicode-range: U+1780-17FF, U+19E0-19FF, U+200C, U+25CC;
+  unicode-range: U+1780-17FF, U+19E0-19FF, U+200C-200D, U+25CC;
 }
 /* latin */
 @font-face {
@@ -59,7 +59,7 @@
   font-weight: 700;
   font-display: swap;
   src: url(../fonts/hanuman/v22/VuJ0dNvD15HhpJJBQBr4LIVGZCNc.woff2) format('woff2');
-  unicode-range: U+1780-17FF, U+19E0-19FF, U+200C, U+25CC;
+  unicode-range: U+1780-17FF, U+19E0-19FF, U+200C-200D, U+25CC;
 }
 /* latin */
 @font-face {
@@ -77,7 +77,7 @@
   font-weight: 900;
   font-display: swap;
   src: url(../fonts/hanuman/v22/VuJ0dNvD15HhpJJBQCL6LIVGZCNc.woff2) format('woff2');
-  unicode-range: U+1780-17FF, U+19E0-19FF, U+200C, U+25CC;
+  unicode-range: U+1780-17FF, U+19E0-19FF, U+200C-200D, U+25CC;
 }
 /* latin */
 @font-face {

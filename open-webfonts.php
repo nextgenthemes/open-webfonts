@@ -31,7 +31,12 @@ use ZipArchive;
 // phpcs:disable PHPCompatibility.FunctionDeclarations.NewParamTypeDeclarations
 // phpcs:disable PHPCompatibility.FunctionDeclarations.NewReturnTypeDeclarations
 
-// Only allow php from WP, allow CLI
+// skip on WP-CLI
+if ( defined( '\WP_CLI' ) && \WP_CLI ) {
+	return;
+}
+
+// Only allow server php from WP, allow php CLI
 if ( 'cli' !== php_sapi_name() && ! defined( 'ABSPATH' ) ) {
 	exit;
 }

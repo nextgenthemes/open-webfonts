@@ -5,7 +5,7 @@
   font-weight: 100;
   font-display: swap;
   src: url(../fonts/gayathri/v17/MCoWzAb429DbBilWLLhcyoTYAsgA.woff2) format('woff2');
-  unicode-range: U+0307, U+0323, U+0964-0965, U+0D00-0D7F, U+200C-200D, U+20B9, U+25CC;
+  unicode-range: U+0307, U+0323, U+0951-0952, U+0964-0965, U+0D00-0D7F, U+1CDA, U+1CF2, U+200C-200D, U+20B9, U+25CC, U+A830-A832;
 }
 /* latin */
 @font-face {
@@ -23,7 +23,7 @@
   font-weight: 400;
   font-display: swap;
   src: url(../fonts/gayathri/v17/MCoQzAb429DbBilWLLAn-p7ABg.woff2) format('woff2');
-  unicode-range: U+0307, U+0323, U+0964-0965, U+0D00-0D7F, U+200C-200D, U+20B9, U+25CC;
+  unicode-range: U+0307, U+0323, U+0951-0952, U+0964-0965, U+0D00-0D7F, U+1CDA, U+1CF2, U+200C-200D, U+20B9, U+25CC, U+A830-A832;
 }
 /* latin */
 @font-face {
@@ -41,7 +41,7 @@
   font-weight: 700;
   font-display: swap;
   src: url(../fonts/gayathri/v17/MCoXzAb429DbBilWLLiE34vnJ_U5wA.woff2) format('woff2');
-  unicode-range: U+0307, U+0323, U+0964-0965, U+0D00-0D7F, U+200C-200D, U+20B9, U+25CC;
+  unicode-range: U+0307, U+0323, U+0951-0952, U+0964-0965, U+0D00-0D7F, U+1CDA, U+1CF2, U+200C-200D, U+20B9, U+25CC, U+A830-A832;
 }
 /* latin */
 @font-face {

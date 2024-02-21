@@ -5,7 +5,7 @@
   font-weight: 100;
   font-display: swap;
   src: url(../fonts/battambang/v24/uk-kEGe7raEw-HjkzZabNhGZ6wR1zo8.woff2) format('woff2');
-  unicode-range: U+1780-17FF, U+19E0-19FF, U+200C, U+25CC;
+  unicode-range: U+1780-17FF, U+19E0-19FF, U+200C-200D, U+25CC;
 }
 /* latin */
 @font-face {
@@ -23,7 +23,7 @@
   font-weight: 300;
   font-display: swap;
   src: url(../fonts/battambang/v24/uk-lEGe7raEw-HjkzZabNtmL9yhQ87ZK.woff2) format('woff2');
-  unicode-range: U+1780-17FF, U+19E0-19FF, U+200C, U+25CC;
+  unicode-range: U+1780-17FF, U+19E0-19FF, U+200C-200D, U+25CC;
 }
 /* latin */
 @font-face {
@@ -41,7 +41,7 @@
   font-weight: 400;
   font-display: swap;
   src: url(../fonts/battambang/v24/uk-mEGe7raEw-HjkzZabPnmp4hxx.woff2) format('woff2');
-  unicode-range: U+1780-17FF, U+19E0-19FF, U+200C, U+25CC;
+  unicode-range: U+1780-17FF, U+19E0-19FF, U+200C-200D, U+25CC;
 }
 /* latin */
 @font-face {
@@ -59,7 +59,7 @@
   font-weight: 700;
   font-display: swap;
   src: url(../fonts/battambang/v24/uk-lEGe7raEw-HjkzZabNsmM9yhQ87ZK.woff2) format('woff2');
-  unicode-range: U+1780-17FF, U+19E0-19FF, U+200C, U+25CC;
+  unicode-range: U+1780-17FF, U+19E0-19FF, U+200C-200D, U+25CC;
 }
 /* latin */
 @font-face {
@@ -77,7 +77,7 @@
   font-weight: 900;
   font-display: swap;
   src: url(../fonts/battambang/v24/uk-lEGe7raEw-HjkzZabNvGO9yhQ87ZK.woff2) format('woff2');
-  unicode-range: U+1780-17FF, U+19E0-19FF, U+200C, U+25CC;
+  unicode-range: U+1780-17FF, U+19E0-19FF, U+200C-200D, U+25CC;
 }
 /* latin */
 @font-face {

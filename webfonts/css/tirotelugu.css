@@ -5,7 +5,7 @@
   font-weight: 400;
   font-display: swap;
   src: url(../fonts/tirotelugu/v7/aFTS7PxlZWk2EPiSymjXdJSPeLbcW2BO.woff2) format('woff2');
-  unicode-range: U+0951-0952, U+0964-0965, U+0C00-0C7F, U+1CDA, U+200C-200D, U+25CC;
+  unicode-range: U+0951-0952, U+0964-0965, U+0C00-0C7F, U+1CDA, U+1CF2, U+200C-200D, U+25CC;
 }
 /* latin-ext */
 @font-face {
@@ -14,7 +14,7 @@
   font-weight: 400;
   font-display: swap;
   src: url(../fonts/tirotelugu/v7/aFTS7PxlZWk2EPiSymjXdJSPeKTcW2BO.woff2) format('woff2');
-  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
 @font-face {
@@ -32,7 +32,7 @@
   font-weight: 400;
   font-display: swap;
   src: url(../fonts/tirotelugu/v7/aFTQ7PxlZWk2EPiSymjXdJSWSKjEXw.woff2) format('woff2');
-  unicode-range: U+0951-0952, U+0964-0965, U+0C00-0C7F, U+1CDA, U+200C-200D, U+25CC;
+  unicode-range: U+0951-0952, U+0964-0965, U+0C00-0C7F, U+1CDA, U+1CF2, U+200C-200D, U+25CC;
 }
 /* latin-ext */
 @font-face {
@@ -41,7 +41,7 @@
   font-weight: 400;
   font-display: swap;
   src: url(../fonts/tirotelugu/v7/aFTQ7PxlZWk2EPiSymjXdJSESKjEXw.woff2) format('woff2');
-  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
 @font-face {
