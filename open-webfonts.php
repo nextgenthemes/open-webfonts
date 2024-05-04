@@ -18,14 +18,8 @@ namespace Nextgenthemes\OpenWebfonts;
 
 use ZipArchive;
 
-// phpcs:disable WordPress.WP.AlternativeFunctions.curl_curl_close
-// phpcs:disable WordPress.WP.AlternativeFunctions.curl_curl_errno
-// phpcs:disable WordPress.WP.AlternativeFunctions.curl_curl_exec
-// phpcs:disable WordPress.WP.AlternativeFunctions.curl_curl_getinfo
-// phpcs:disable WordPress.WP.AlternativeFunctions.curl_curl_init
-// phpcs:disable WordPress.WP.AlternativeFunctions.curl_curl_instance
-// phpcs:disable WordPress.WP.AlternativeFunctions.curl_curl_setopt
-// phpcs:disable WordPress.WP.AlternativeFunctions.file_system_read_file_put_contents -- Any reason to?
+// phpcs:disable WordPress.WP.AlternativeFunctions
+
 // php 7.4
 // phpcs:disable PHPCompatibility.FunctionDeclarations.NewNullableTypes
 // phpcs:disable PHPCompatibility.FunctionDeclarations.NewParamTypeDeclarations
@@ -58,7 +52,7 @@ class OpenWebfonts {
 
 			add_action(
 				'init',
-				function() {
+				function (): void {
 					add_shortcode( 'webfonts', [ $this, 'shortcode' ] );
 				}
 			);
@@ -72,13 +66,13 @@ class OpenWebfonts {
 		}
 	}
 
-	public function shortcode( $args = [], $content = '' ) {
+	public function shortcode(): string {
 		// phpcs:ignore WordPress.Security.NonceVerification.Missing -- do I need this?
 		$url_or_int = empty( $_POST['google_fonts_url'] ) ? 'poop' : \rawurldecode( $_POST['google_fonts_url'] );
 		return $this->get_webfonts( $url_or_int );
 	}
 
-	private function get_webfonts( string $url_or_int ) {
+	private function get_webfonts( string $url_or_int ): string {
 
 		$url_or_int = trim( $url_or_int );
 		$html       = '';
@@ -94,7 +88,7 @@ class OpenWebfonts {
 		return $html;
 	}
 
-	private function most_popular_fonts( int $num ) {
+	private function most_popular_fonts( int $num ): void {
 
 		if ( $this->is_wp ) {
 			return;
@@ -238,7 +232,7 @@ class OpenWebfonts {
 
 		preg_match_all($re, $css, $matches, PREG_SET_ORDER, 0);
 
-		foreach ($matches as $key => $match) {
+		foreach ( $matches as $key => $match ) {
 
 			if ( empty( $match['variant'] ) ) {
 				$this->print_line( 'variant not found' );
@@ -422,11 +416,11 @@ class OpenWebfonts {
 	}
 
 	private static function recursive_delete( string $dir ): void {
-		if (is_dir($dir)) {
+		if ( is_dir($dir) ) {
 			$objects = scandir($dir);
-			foreach ($objects as $object) :
+			foreach ( $objects as $object ) :
 				if ( '.' !== $object && '..' !== $object ) {
-					if (is_dir($dir . DIRECTORY_SEPARATOR . $object) && ! is_link($dir . '/' . $object)) {
+					if ( is_dir($dir . DIRECTORY_SEPARATOR . $object) && ! is_link($dir . '/' . $object) ) {
 						self::recursive_delete($dir . DIRECTORY_SEPARATOR . $object);
 					} else {
 						unlink($dir . DIRECTORY_SEPARATOR . $object);
