@@ -1,0 +1,32 @@
+/* fallback */
+@font-face {
+  font-family: 'Playwrite CU';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(../fonts/playwritecu/v1/VuJ2dNDb2p7tvoFGLMPdf9xGZA.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Playwrite CU';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(../fonts/playwritecu/v1/VuJ2dNDb2p7tvoFGLMPdf9xGZA.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Playwrite CU';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(../fonts/playwritecu/v1/VuJ2dNDb2p7tvoFGLMPdf9xGZA.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Playwrite CU';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/playwritecu/v1/VuJ2dNDb2p7tvoFGLMPdf9xGZA.woff2) format('woff2');
+}

@@ -1,0 +1,32 @@
+/* fallback */
+@font-face {
+  font-family: 'Playwrite IN';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(../fonts/playwritein/v4/uk-kEGGpoLQ97mfv2J3cZzup4g.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Playwrite IN';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(../fonts/playwritein/v4/uk-kEGGpoLQ97mfv2J3cZzup4g.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Playwrite IN';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(../fonts/playwritein/v4/uk-kEGGpoLQ97mfv2J3cZzup4g.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Playwrite IN';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/playwritein/v4/uk-kEGGpoLQ97mfv2J3cZzup4g.woff2) format('woff2');
+}
