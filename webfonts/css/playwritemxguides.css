@@ -1,0 +1,8 @@
+/* fallback */
+@font-face {
+  font-family: 'Playwrite MX Guides';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/playwritemxguides/v1/k3kMo9ESPe9dzQ1UGbvoZhnhbtfklWqN0qk.woff2) format('woff2');
+}

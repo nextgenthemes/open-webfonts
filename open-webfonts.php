@@ -1,4 +1,7 @@
-<?php declare(strict_types = 1);
+<?php
+
+declare(strict_types = 1);
+
 /**
  * Plugin Name:       NGT Google Webfont Downloader
  * Plugin URI:        https://nextgenthemes.com/google-webfont-downloader/
@@ -83,7 +86,7 @@ class OpenWebfonts {
 			$html = $this->prepare( $url_or_int );
 		}
 
-		curl_close($this->curl);
+		curl_close( $this->curl );
 
 		return $html;
 	}
@@ -95,7 +98,7 @@ class OpenWebfonts {
 		}
 
 		$i    = 1;
-		$json = $this->download('https://gwfh.mranftl.com/api/fonts' );
+		$json = $this->download( 'https://gwfh.mranftl.com/api/fonts' );
 
 		if ( ! $json ) {
 			return;
@@ -118,7 +121,7 @@ class OpenWebfonts {
 			if ( $i > $num ) {
 				break;
 			}
-			$i++;
+			++$i;
 
 		endforeach;
 	}
@@ -130,7 +133,7 @@ class OpenWebfonts {
 			'',
 			$google_css_url
 		);
-		$filename = strtolower( preg_replace('/[^a-z]/i', '', $filename ) );
+		$filename = strtolower( preg_replace( '/[^a-z]/i', '', $filename ) );
 
 		if ( $this->is_wp ) {
 			$filename = \sanitize_file_name( $filename ); // probably not needed at all after preg_replace
@@ -143,7 +146,7 @@ class OpenWebfonts {
 
 		$html = '';
 
-		if ( ! str_starts_with($google_css_url, 'https://fonts.googleapis.com/css2') /* || false !== filter_var($google_css_url, FILTER_VALIDATE_URL) */ ) {
+		if ( ! str_starts_with( $google_css_url, 'https://fonts.googleapis.com/css2' ) /* || false !== filter_var($google_css_url, FILTER_VALIDATE_URL) */ ) {
 
 			if ( ! $this->is_wp ) {
 				echo 'You must enter Google Fonts CSS url like: https://fonts.googleapis.com/css2?family=Open+Sans...&display=swap';
@@ -210,7 +213,7 @@ class OpenWebfonts {
 
 		if ( $this->is_wp ) {
 			$zipfile = WP_CONTENT_DIR . "/uploads/webfont-zips/$filename.zip";
-			$zip_url = content_url() . '/uploads/webfont-zips/' . basename($zipfile);
+			$zip_url = content_url() . '/uploads/webfont-zips/' . basename( $zipfile );
 		} elseif ( $storage ) {
 			$dir     = $cache_dir;
 			$zipfile = false;
@@ -218,7 +221,7 @@ class OpenWebfonts {
 
 		$font_css_file     = "$dir/css/$filename.css";
 		$font_css_file_b64 = "$dir/css/$filename-b64.css";
-		$css               = $this->download($google_css_url);
+		$css               = $this->download( $google_css_url );
 		$css_b64           = $css;
 
 		if ( ! $css ) {
@@ -230,7 +233,7 @@ class OpenWebfonts {
 		# https://regex101.com/r/lC52yj/7
 		$re = '%/* (?<variant>[^ ]+) \*/\n@font-face {\n  font-family: (?<family>[^;]+);\n  font-style: (?<style>[a-z]+);\n  font-weight: (?<weight>[0-9 ]+);[\n](  font-stretch: (?<stretch>[0-9]+(\%)?);\n)?  (font-display: swap;)?[\n].*url\((?<url>[^)]+/s/(?<id>[^/]+)/(?<version>[^/]+)/(?<uid>[^)]+))%mi';
 
-		preg_match_all($re, $css, $matches, PREG_SET_ORDER, 0);
+		preg_match_all( $re, $css, $matches, PREG_SET_ORDER, 0 );
 
 		foreach ( $matches as $key => $match ) {
 
@@ -256,15 +259,15 @@ class OpenWebfonts {
 			$css_b64 = $css_prep['b64'];
 		}
 
-		if ( ! is_dir( dirname($font_css_file) ) ) {
-			mkdir( dirname($font_css_file), 0700, true );
+		if ( ! is_dir( dirname( $font_css_file ) ) ) {
+			mkdir( dirname( $font_css_file ), 0700, true );
 		}
 
 		file_put_contents( $font_css_file, $css );
-		$this->print_line( $this->maybe_basename($font_css_file) . ' saved');
+		$this->print_line( $this->maybe_basename( $font_css_file ) . ' saved' );
 
 		file_put_contents( $font_css_file_b64, $css_b64 );
-		$this->print_line( $this->maybe_basename($font_css_file_b64) . ' saved');
+		$this->print_line( $this->maybe_basename( $font_css_file_b64 ) . ' saved' );
 
 		if ( $zipfile ) {
 			$zipfile = $this->create_zip( $zipfile, $dir, $font_dirs );
@@ -286,39 +289,39 @@ class OpenWebfonts {
 		$weight       = $match['weight'];
 		$version      = $match['version'];
 		$url          = $match['url'];
-		$license_file = $this->license_file($id, $cache_dir);
+		$license_file = $this->license_file( $id, $cache_dir );
 
 		$font_file_relative = "fonts/$id/$version/$uid";
 		# possible            "fonts/$id/$variant-$style-$weight-$uid";
 		$font_file_absolute = "$dir/$font_file_relative";
 		$font_file_stored   = "$cache_dir/$font_file_relative";
-		$license_file_dist  = "$dir/fonts/$id/$version/" . basename($license_file);
+		$license_file_dist  = "$dir/fonts/$id/$version/" . basename( $license_file );
 
-		if ( is_file($font_file_absolute) ) {
-			$this->print_line( $this->maybe_basename($font_file_absolute) . ' exists already');
+		if ( is_file( $font_file_absolute ) ) {
+			$this->print_line( $this->maybe_basename( $font_file_absolute ) . ' exists already' );
 		} else {
-			if ( ! is_dir( dirname($font_file_absolute) ) ) {
-				mkdir( dirname($font_file_absolute), 0700, true );
+			if ( ! is_dir( dirname( $font_file_absolute ) ) ) {
+				mkdir( dirname( $font_file_absolute ), 0700, true );
 			}
 
-			if ( is_file($font_file_stored) ) {
+			if ( is_file( $font_file_stored ) ) {
 				copy( $font_file_stored, $font_file_absolute );
-				$this->print_line( $this->maybe_basename($font_file_absolute) . ' copied from cache');
+				$this->print_line( $this->maybe_basename( $font_file_absolute ) . ' copied from cache' );
 			} else {
-				$font_file_content = $this->download($url);
+				$font_file_content = $this->download( $url );
 
 				if ( ! $font_file_content ) {
 					return null;
 				}
 
 				file_put_contents( $font_file_absolute, $font_file_content );
-				$this->print_line( $this->maybe_basename($font_file_absolute) . ' downloaded');
+				$this->print_line( $this->maybe_basename( $font_file_absolute ) . ' downloaded' );
 			}
 		}
 
-		$license_src_is_target = ( is_file($license_file_dist) && $license_file_dist === $license_file ) ? true : false;
+		$license_src_is_target = ( is_file( $license_file_dist ) && $license_file_dist === $license_file ) ? true : false;
 
-		if ( is_file($license_file) && ! $license_src_is_target ) {
+		if ( is_file( $license_file ) && ! $license_src_is_target ) {
 			copy( $license_file, $license_file_dist );
 		}
 
@@ -339,7 +342,7 @@ class OpenWebfonts {
 
 				$file = __DIR__ . "/$license/$font_id/$file";
 
-				if ( is_file($file) ) {
+				if ( is_file( $file ) ) {
 					return $file;
 				}
 			}
@@ -350,7 +353,7 @@ class OpenWebfonts {
 
 			$file = "$cache_dir/$font_id/$file";
 
-			if ( is_file($file) ) {
+			if ( is_file( $file ) ) {
 				return $file;
 			}
 		}
@@ -364,10 +367,10 @@ class OpenWebfonts {
 		$ua_mac = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36';
 
 		$ch = $this->curl;
-		curl_setopt($ch, CURLOPT_URL, $url);
-		curl_setopt($ch, CURLOPT_USERAGENT, $ua_win);
-		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true );
-		$result      = curl_exec($ch);
+		curl_setopt( $ch, CURLOPT_URL, $url );
+		curl_setopt( $ch, CURLOPT_USERAGENT, $ua_win );
+		curl_setopt( $ch, CURLOPT_RETURNTRANSFER, true );
+		$result      = curl_exec( $ch );
 		$http_status = curl_getinfo( $ch, CURLINFO_HTTP_CODE );
 		if ( 200 !== $http_status ) {
 			$this->print_line( "Error: HTTP status code: $http_status" );
@@ -380,14 +383,14 @@ class OpenWebfonts {
 
 	private function create_zip( string $zipfile, string $dir, array $font_dirs ): string {
 
-		if ( ! is_dir( dirname($zipfile) ) ) {
-			mkdir( dirname($zipfile), 0750, true );
+		if ( ! is_dir( dirname( $zipfile ) ) ) {
+			mkdir( dirname( $zipfile ), 0750, true );
 		}
 
 		$zip = new ZipArchive();
-		$ret = $zip->open($zipfile, ZipArchive::CREATE | ZipArchive::OVERWRITE);
+		$ret = $zip->open( $zipfile, ZipArchive::CREATE | ZipArchive::OVERWRITE );
 		if ( true !== $ret ) {
-			$this->print_line("Failed with code $ret");
+			$this->print_line( "Failed with code $ret" );
 			$zipfile = '';
 		} else {
 			foreach ( $font_dirs as $font_dir ) {
@@ -396,14 +399,14 @@ class OpenWebfonts {
 					'add_path'        => "fonts/$font_dir/",
 					'remove_all_path' => true,
 				);
-				$zip->addGlob( "$dir/fonts/$font_dir" . '/*.{woff2,txt}', GLOB_BRACE, $options);
+				$zip->addGlob( "$dir/fonts/$font_dir" . '/*.{woff2,txt}', GLOB_BRACE, $options );
 			}
 
 			$options = array(
 				'add_path'        => 'css/',
 				'remove_all_path' => true,
 			);
-			$zip->addGlob( $dir . '/css/*.css', GLOB_BRACE, $options);
+			$zip->addGlob( $dir . '/css/*.css', GLOB_BRACE, $options );
 			$zip->close();
 			$this->print_line( $this->maybe_basename( $zipfile ) . ' created' );
 		}
@@ -416,18 +419,18 @@ class OpenWebfonts {
 	}
 
 	private static function recursive_delete( string $dir ): void {
-		if ( is_dir($dir) ) {
-			$objects = scandir($dir);
+		if ( is_dir( $dir ) ) {
+			$objects = scandir( $dir );
 			foreach ( $objects as $object ) :
 				if ( '.' !== $object && '..' !== $object ) {
-					if ( is_dir($dir . DIRECTORY_SEPARATOR . $object) && ! is_link($dir . '/' . $object) ) {
-						self::recursive_delete($dir . DIRECTORY_SEPARATOR . $object);
+					if ( is_dir( $dir . DIRECTORY_SEPARATOR . $object ) && ! is_link( $dir . '/' . $object ) ) {
+						self::recursive_delete( $dir . DIRECTORY_SEPARATOR . $object );
 					} else {
-						unlink($dir . DIRECTORY_SEPARATOR . $object);
+						unlink( $dir . DIRECTORY_SEPARATOR . $object );
 					}
 				}
 			endforeach;
-			rmdir($dir);
+			rmdir( $dir );
 		}
 	}
 

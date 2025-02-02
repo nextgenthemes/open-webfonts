@@ -1,0 +1,8 @@
+/* fallback */
+@font-face {
+  font-family: 'Playwrite AU QLD Guides';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/playwriteauqldguides/v1/TuGBUUJtX5tTUfQi_7kbiZZFVhl0FIKnvy00LDxg.woff2) format('woff2');
+}

@@ -1,0 +1,16 @@
+/* fallback */
+@font-face {
+  font-family: 'Playwrite AT Guides';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/playwriteatguides/v1/QdVISS0gJR2xneUeQPfE-FVA1BlZQRpBdboDdw.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Playwrite AT Guides';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/playwriteatguides/v1/QdVKSS0gJR2xneUeQPfE-FVA1BlZQRpBRb0.woff2) format('woff2');
+}
