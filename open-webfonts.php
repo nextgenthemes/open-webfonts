@@ -42,7 +42,7 @@ new OpenWebfonts();
 
 class OpenWebfonts {
 
-	private \CurlHandle $curl;
+	private resource $curl;
 	private bool $is_wp;
 	private string $lines = '';
 
