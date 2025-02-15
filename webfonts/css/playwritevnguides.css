@@ -1,0 +1,8 @@
+/* fallback */
+@font-face {
+  font-family: 'Playwrite VN Guides';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/playwritevnguides/v1/JIAvUUlydXJZq1IQU8oDBn2CUkROHFEAfXY.woff2) format('woff2');
+}

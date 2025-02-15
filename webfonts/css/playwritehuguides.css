@@ -1,0 +1,8 @@
+/* fallback */
+@font-face {
+  font-family: 'Playwrite HU Guides';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/playwritehuguides/v1/AYCXpWvtftIVXepC5AzjCAdKgYPugOK0Tqk.woff2) format('woff2');
+}

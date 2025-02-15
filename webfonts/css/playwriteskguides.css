@@ -1,0 +1,8 @@
+/* fallback */
+@font-face {
+  font-family: 'Playwrite SK Guides';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/playwriteskguides/v1/P5sezYaSYdfH5z93kEFk3tyPlqxeQeo_Jz8.woff2) format('woff2');
+}

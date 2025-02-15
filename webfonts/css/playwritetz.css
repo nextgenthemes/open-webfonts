@@ -1,0 +1,32 @@
+/* fallback */
+@font-face {
+  font-family: 'Playwrite TZ';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(../fonts/playwritetz/v10/RLp4K5rs6au7bzABmVQAOwnOYA.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Playwrite TZ';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(../fonts/playwritetz/v10/RLp4K5rs6au7bzABmVQAOwnOYA.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Playwrite TZ';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(../fonts/playwritetz/v10/RLp4K5rs6au7bzABmVQAOwnOYA.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Playwrite TZ';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/playwritetz/v10/RLp4K5rs6au7bzABmVQAOwnOYA.woff2) format('woff2');
+}

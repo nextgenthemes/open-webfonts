@@ -1,0 +1,32 @@
+/* fallback */
+@font-face {
+  font-family: 'Playwrite AU SA';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(../fonts/playwriteausa/v9/YcmusZpNS1SdgmHbGgtRuUElnR3Ylw.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Playwrite AU SA';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(../fonts/playwriteausa/v9/YcmusZpNS1SdgmHbGgtRuUElnR3Ylw.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Playwrite AU SA';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(../fonts/playwriteausa/v9/YcmusZpNS1SdgmHbGgtRuUElnR3Ylw.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Playwrite AU SA';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/playwriteausa/v9/YcmusZpNS1SdgmHbGgtRuUElnR3Ylw.woff2) format('woff2');
+}
