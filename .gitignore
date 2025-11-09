@@ -1,4 +1,5 @@
 .DS_Store
 *.ttx
 *.pyc
+.phpcs.xml
 /zips
