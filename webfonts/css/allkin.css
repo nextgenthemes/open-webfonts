@@ -1,0 +1,8 @@
+/* fallback */
+@font-face {
+  font-family: 'Allkin';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/allkin/v10/ieV_2Y5KIGmGKpnzKA.woff2) format('woff2');
+}
